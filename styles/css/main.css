@@ -48,7 +48,8 @@
     font-family: Cuprum,Tahoma,sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 13px/1.85;
+    font-size: 13px;
+    line-height: 1.85;
     color: var(--black);
     background-color:var(--white);
 }
