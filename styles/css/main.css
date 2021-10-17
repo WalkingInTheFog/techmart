@@ -1,0 +1,55 @@
+:root{
+
+    --black:#000;
+    --white:#fff;
+    --red:#EE3643;
+    --red-error:#BA2732;
+    --red-hover:#CA2C37;
+    --blue:#32425C;
+    --darker-blue:#293449;
+    --very-darker-blue:#161D29;
+    --blue-active:#3D546F;
+    --darker-blue-active:#1D2739;
+    --green:#63A63E;
+    --green-success:#5FBB2D;
+    --green-shadow:#367315;
+    --green-active:#518534;
+    --light-beige: #F9F5F0;
+    --light-gray:#EAEAEA;
+    --gray-active:#C5C5C5;
+    --gray:#A9A9A9;
+    --gray-input: #B5B5B5;
+    --light-blue:#F1F5F7;
+    
+    --promo-yellow:#FFBF47;
+    --promo-blue:#3BBCE3;
+    --promo-violet: #DC91D8;
+    --promo-green: #8ED78F;
+    --promo-slider-title-bg:rgba(0, 0, 0, 0.25);
+
+   
+    --servises-shadow-light:#405069;
+
+    --footer-text-gold:#FFD180;
+    --footer-address-blue:#F3F7F9;
+    --footer-text-text-blue:#F1F5F7;
+
+   
+    --pop-up-footer-bg:#F4F4F4;
+    
+    --logo-shadow:rgba(0, 0, 0, 0.24);
+    --pop-up-map-shadow:rgba(0, 0, 0, 0.15);
+
+}
+
+.page-body{
+    width: 100%;
+    min-width: 970px;
+    font-family: Cuprum,Tahoma,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px/1.25;
+
+    color: #AE7C78;
+    background-color: #fcfcfc;
+}
