@@ -62,3 +62,43 @@ img{
     outline: 0;
 
 }
+
+/* Main-header */
+
+.main-header__top-row {
+    background-color:var(--darker-blue);
+    color:white;
+}
+
+        .main-logo {
+            font-family: Cuprum,Tahoma,sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 18px;  
+            text-transform: uppercase;
+            text-align: center;
+            color: var(--white);
+            background-color: var(--red);
+
+            box-shadow: inset 0px -5px 0px var(--logo-shadow);
+        }
+
+            .main-logo:active{
+                background-color: var(--red-error);
+            }
+
+        .header-search-form {
+        }
+
+
+        .bookmarks {
+        }
+
+
+        .basket {
+        }
+
+
+        .checkout {
+        }
