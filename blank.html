@@ -41,89 +41,77 @@
 
     <div class="main-header__top-row">
 
-      <div class="container">
+      <div class="container main-header__top-row-grid-layout">
 
-        <div class="main-header__top-row-grid-layout">
+        <a class="main-logo">Техномарт</a>
 
-          <a href="index.html" class="main-logo">Техномарт</a>
+        <form class="header-search-form" action="https://echo.htmlacademy.ru/" method="GET" name="header-search-form">
 
-          <form class="header-search-form" action="https://echo.htmlacademy.ru/" method="GET" name="header-search-form">
+          <label class="visually-hidden" for="header-search-form__field">Что ищем?</label>
 
-            <label class="visually-hidden" for="header-search-form__field">Что ищем?</label>
+          <input class="header-search-form__field" type="text" name="header-search-form__field"
+            id="header-search-form__field" placeholder="Поиск:">
 
-            <input class="header-search-form__field" type="text" name="header-search-form__field"
-              id="header-search-form__field" placeholder="Поиск:">
+          <button class="visually-hidden" type="submit">Искать</button>
 
-            <button class="visually-hidden" type="submit">Искать</button>
+        </form>
 
-          </form>
+        <a class="bookmarks icon-bookmark" href="blank.html">Закладки: <span class="bookmarks__count">0</span> </a>
 
-          <a class="bookmarks icon-bookmark" href="blank.html">Закладки: <span class="bookmarks__count">0</span> </a>
+        <a class="basket icon-basket" href="blank.html">Корзина: <span class="basket__goods-count">0</span> </a>
 
-          <a class="basket icon-basket" href="blank.html">Корзина: <span class="basket__goods-count">0</span> </a>
-
-          <a class="checkout" href="blank.html">Оформить заказ</a>
-
-        </div>
+        <a class="checkout" href="blank.html">Оформить заказ</a>
 
       </div>
 
     </div>
 
-    <div class="main-header__second-row">
+    <div class="container main-header__second-row-grid-layout">
 
-      <div class="container">
+      <p class="main-header__desc">
+        <i>Интернет-магазин <br> строительных материалов <br> и инструментов для ремонта</i>
+      </p>
 
-        <div class="main-header__second-row-grid-layout">
+      <address class="contacts">
 
-          <p class="main-header__desc">
-            <i>Интернет-магазин <br> строительных материалов <br> и инструментов для ремонта</i>
+        <a class="contacts__phone icon-phone" href="tel:78005558628">+7 800 555-86-28</a>
+
+        <p>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
+
+      </address>
+
+
+      <div class="user-panel">
+
+        <div class="user-panel__guest">
+
+          <a class="user-panel__btn icon-inter" href="blank.html">Войти</a>
+
+          <a class="user-panel__btn" href="blank.html">Регистрация</a>
+
+        </div>
+
+        <div class="user-panel__user display-none">
+
+          <p class="user-panel__btn">
+
+            <a href="blank.html" class="icon-user">Имя Фамилия</a>
+
+            <a href="blank.html" class="icon-logout">
+
+              <span class="visually-hidden">выйти</span>
+
+            </a>
+
           </p>
 
-          <address class="contacts">
+          <p>
 
-            <a class="contacts__phone icon-phone" href="tel:78005558628">+7 800 555-86-28</a>
+            <a class="user-panel__user-link" href="blank.html">Мои заказы </a>
 
-            <p>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
+            <a class="user-panel__user-link" href="blank.html">Личный кабинет</a>
 
-          </address>
-
-
-          <div class="user-panel">
-
-            <div class="user-panel__guest">
-
-              <a class="user-panel__btn icon-inter" href="blank.html">Войти</a>
-
-              <a class="user-panel__btn" href="blank.html">Регистрация</a>
-
-            </div>
-
-            <div class="user-panel__user display-none">
-
-              <p class="user-panel__btn">
-
-                <a href="blank.html" class="icon-user">Имя Фамилия</a>
-
-                <a href="blank.html" class="icon-logout">
-
-                  <span class="visually-hidden">выйти</span>
-
-                </a>
-
-              </p>
-
-              <p>
-
-                <a class="user-panel__user-link" href="blank.html">Мои заказы </a>
-
-                <a class="user-panel__user-link" href="blank.html">Личный кабинет</a>
-
-              </p>
-
-            </div>
-
-          </div>
+          </p>
 
         </div>
 
@@ -131,27 +119,19 @@
 
     </div>
 
-    <div class="main-header__third-row">
+    <nav class="main-nav container">
 
-      <div class="container">
+      <ul class="main-nav-list">
+        <li class="main-nav-list__item"><a class="main-nav-list__link">Главная</a></li>
+        <li class="main-nav-list__item"><a href="blank.html" class="main-nav-list__link">Компания</a></li>
+        <li class="main-nav-list__item"><a href="catalog.html" class="main-nav-list__link">Каталог</a></li>
+        <li class="main-nav-list__item"><a href="blank.html" class="main-nav-list__link">Новости</a></li>
+        <li class="main-nav-list__item"><a href="blank.html" class="main-nav-list__link">Спецпредложения</a></li>
+        <li class="main-nav-list__item"><a href="blank.html" class="main-nav-list__link">Доставка</a></li>
+        <li class="main-nav-list__item"><a href="blank.html" class="main-nav-list__link">Контакты</a></li>
+      </ul>
 
-        <nav class="main-nav">
-
-          <ul class="main-nav-list">
-            <li class="main-nav-list__item"><a href="index.html" class="main-nav-list__link">Главная</a></li>
-            <li class="main-nav-list__item"><a href="blank.html" class="main-nav-list__link">Компания</a></li>
-            <li class="main-nav-list__item"><a href="catalog.html" class="main-nav-list__link">Каталог</a></li>
-            <li class="main-nav-list__item"><a href="blank.html" class="main-nav-list__link">Новости</a></li>
-            <li class="main-nav-list__item"><a href="blank.html" class="main-nav-list__link">Спецпредложения</a></li>
-            <li class="main-nav-list__item"><a href="blank.html" class="main-nav-list__link">Доставка</a></li>
-            <li class="main-nav-list__item"><a href="blank.html" class="main-nav-list__link">Контакты</a></li>
-          </ul>
-
-        </nav>
-
-      </div>
-
-    </div>
+    </nav>
 
   </header>
 
