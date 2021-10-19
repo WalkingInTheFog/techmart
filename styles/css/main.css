@@ -89,7 +89,11 @@ img{
 
 }
 
-/* Main-header */
+.display-none{
+    display: none;
+}
+
+/******************************************Main-header********************************************************************/
 
 .main-header__top-row {
     background-color:var(--darker-blue);
@@ -117,6 +121,13 @@ img{
         .header-search-form {
         }
 
+        .header-search-form__field{
+            background-color: transparent;
+            color: var(--white);
+        }
+            .header-search-form__field::placeholder{
+                color: var(--white);
+            }
 
         .bookmarks {
         }
