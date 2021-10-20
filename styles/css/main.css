@@ -121,13 +121,39 @@ img{
         .header-search-form {
         }
 
-        .header-search-form__field{
-            background-color: transparent;
-            color: var(--white);
-        }
-            .header-search-form__field::placeholder{
-                color: var(--white);
+            .header-search-form__label{}
+
+            .header-search-form__label:hover .header-search-form__icon{
+                opacity: 1;
             }
+
+                .header-search-form__field{
+
+                    font-size: 18px;
+                    line-height: 24px;
+
+                    background-color: transparent;
+                    color: var(--white);
+                }
+                    .header-search-form__field::placeholder{
+                        color: var(--white);
+                    }
+
+                    .header-search-form__field:focus{
+                        background-color:var(--white);
+                        color: var(--black);
+                    }
+
+                    .header-search-form__field:focus+.header-search-form__icon{
+                        fill: var(--red);
+                        opacity: 1;
+                    }
+
+                .header-search-form__icon{
+                    fill:var(--white);
+                    opacity: 0.3;
+
+                }
 
         .bookmarks {
         }
