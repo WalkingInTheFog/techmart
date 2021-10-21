@@ -2,6 +2,7 @@
 
     --black:#000;
     --white:#fff;
+    --white-hover:RGBA(255,255,255, 0.5);
     --red:#EE3643;
     --red-error:#BA2732;
     --red-hover:#CA2C37;
@@ -155,7 +156,18 @@ img{
 
                 }
 
-        .bookmarks {
+        .bookmarks,
+        .basket {
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 18px;
+            color: var(--white);
+        }
+
+        .bookmarks:active,
+        .basket:active{
+            background-color:var(--very-darker-blue);
+            color: var(--white-hover);
         }
 
 
