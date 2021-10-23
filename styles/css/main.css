@@ -653,3 +653,25 @@ img{
 .main-footer__contact-phone {
     text-decoration: none;
 }
+
+
+.footer-nav-list {
+}
+    .footer-nav-list__item {
+    }
+
+        .footer-nav-list__link {
+            font-size: 18px;
+            line-height: 24px;
+            text-decoration: none;
+            color: var(--light-blue);
+        }   
+
+        .footer-nav-list__link:hover,
+        .footer-nav-list__link:focus{
+            text-decoration: underline;
+        }
+
+        .footer-nav-list__link:active{
+            opacity: 0.5;
+        }
