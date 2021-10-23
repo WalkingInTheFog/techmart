@@ -229,4 +229,58 @@ img{
         }    
 
 
+/**********************************user-panel***************************************/
+.user-panel {
+}
+    .user-panel__guest {
+    }
+        .user-panel__btn {
+            text-decoration: none;
+            text-align: center;
+            font-size: 21px;
+            line-height: 21px;
+            color: var(--black);
+            background-color:var(--white);
+        }
 
+            .user-panel__icon-login{
+                width: 20px;
+                height: 17px;
+                fill: var(--gray-active);
+            }
+
+
+
+            .user-panel__btn:hover,
+            .user-panel__btn:focus{
+                color: var(--red);
+            }
+
+            .user-panel__btn:hover .user-panel__icon-login ,
+            .user-panel__btn:focus .user-panel__icon-login{
+                fill: var(--blue-active);
+            }
+
+
+
+            .user-panel__btn:active{
+                color: var(--gray-active);
+            }
+
+            .user-panel__btn:active .user-panel__icon-login{
+                fill: var(--gray-active);
+            }
+
+
+.icon-inter {
+}
+.user-panel__user {
+}
+.icon-user {
+}
+.icon-logout {
+}
+.visually-hidden {
+}
+.user-panel__user-link {
+}
