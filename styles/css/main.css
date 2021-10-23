@@ -150,6 +150,7 @@ img{
             font-size: 18px;
             line-height: 18px;  
             text-transform: uppercase;
+            text-decoration: none;
             text-align: center;
             color: var(--white);
             background-color: var(--red);
