@@ -660,18 +660,33 @@ img{
     .footer-nav-list__item {
     }
 
-        .footer-nav-list__link {
+        .footer-nav-list__link,
+        .footer-catalog-list__link{
             font-size: 18px;
             line-height: 24px;
             text-decoration: none;
-            color: var(--light-blue);
+           
         }   
 
+        .footer-nav-list__link{
+            color: var(--light-blue);
+        }
+
+        .footer-catalog-list__link{
+            color: var(--footer-text-gold);
+        }
+
         .footer-nav-list__link:hover,
-        .footer-nav-list__link:focus{
+        .footer-nav-list__link:focus,
+        
+        .footer-catalog-list__link:hover,
+        .footer-catalog-list__link:focus{
             text-decoration: underline;
         }
 
-        .footer-nav-list__link:active{
+        .footer-nav-list__link:active,
+        .footer-catalog-list__link:active{
             opacity: 0.5;
         }
+
+
