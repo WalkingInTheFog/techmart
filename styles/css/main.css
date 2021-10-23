@@ -271,16 +271,54 @@ img{
                 fill: var(--gray-active);
             }
 
+    .user-panel__user {
+    }
 
-.icon-inter {
-}
-.user-panel__user {
-}
-.icon-user {
-}
-.icon-logout {
-}
-.visually-hidden {
-}
-.user-panel__user-link {
-}
+        .user-panel__btn-inner-link{
+            text-decoration: none;
+        
+            font-size: 21px;
+            line-height: 21px;
+            color: var(--black);
+            background-color:var(--white);
+        }
+
+           .user-panel__btn-inner-link:active{
+                color: var(--gray-active);
+           }
+
+            
+        .user-panel__icon-user,
+        .user-panel__icon-logout{
+            fill: var(--gray-active);
+        }
+
+            .user-panel__btn-inner-link:hover .user-panel__icon-user,
+            .user-panel__btn-inner-link:focus .user-panel__icon-user,
+            .user-panel__btn-inner-link:hover .user-panel__icon-logout,
+            .user-panel__btn-inner-link:focus .user-panel__icon-logout{
+                fill: var(--blue-active);
+            }
+
+            .user-panel__btn-inner-link:active .user-panel__icon-user,
+            .user-panel__btn-inner-link:active .user-panel__icon-logout{
+                fill: var(--gray-active);
+            }    
+
+
+        .user-panel__user-link{
+            text-decoration: none;
+            font-size: 16px;
+            line-height:18px;
+            color: var(--blue);
+        }
+
+            .user-panel__user-link:hover,
+            .user-panel__user-link:focus{
+                color: var(--red);
+            }
+
+            .user-panel__user-link:active{
+                color: var(--gray-active);
+            }
+
