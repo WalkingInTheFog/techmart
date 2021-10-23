@@ -27,6 +27,9 @@
     --promo-violet: #DC91D8;
     --promo-green: #8ED78F;
     --promo-slider-title-bg:rgba(0, 0, 0, 0.25);
+    --promo--btn-bg:rgba(255, 255, 255, 0.3);
+    --promo-btn-hover:rgba(197,197,197, 0.3);
+    --promo-btn-active:rgba(169,169,169, 0.3);
 
    
     --servises-shadow-light:#405069;
@@ -348,3 +351,55 @@ img{
                 background-color:var(--darker-blue-active);
             }
 
+/****************************************************PROMO-Section*************************************/
+.yellow-bg{
+    background-color: var(--promo-yellow);
+}
+
+.blue-bg{
+    background-color: var( --promo-blue);
+}
+
+.violet-bg{
+    background-color: var(--promo-violet);
+}
+
+.green-bg{
+    background-color:var(--promo-green);
+}
+
+
+
+.promo__item{
+    color: var(--white);
+}
+
+    .promo__item h3{
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: left;
+
+    }      
+
+    .promo__item a{
+        
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        text-decoration: none;
+        color: var(--white);
+
+        background-color:var(--promo--btn-bg);
+
+    }
+
+        .promo__item a:hover,
+        .promo__item a:focus{
+            background-color: var(--promo-btn-hover);
+        }
+
+        .promo__item a:active{
+            background-color: var(--promo-btn-active);
+        }
+    
