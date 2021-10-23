@@ -457,4 +457,74 @@ img{
             }
 
 
-  
+  /* ***************************Popular-goods************************************* */
+
+  .product-cart {
+}
+    .product-cart__title {
+        font-family: 'PT Sans', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .product-cart__img {
+    }
+    .product-cart__links {
+    }
+    
+        .product-cart__links-buy, 
+        .product-cart__links-bookmark{
+
+            font-size: 14px;
+            line-height: 18px;
+            text-transform: uppercase;
+            text-decoration: none;
+            text-align: center;
+           
+        }
+
+        .product-cart__links-buy{
+            color: var(--white);
+            background-color: var(--green);
+        }
+        
+            .product-cart__links-buy:hover,
+            .product-cart__links-buy:focus{
+                background-color: var(--green-success);
+            }
+
+            .product-cart__links-buy:active{
+                background-color: var(--green-active);
+            }
+
+    .icon-cart {
+    }
+        .product-cart__links-bookmark {
+
+            color: var(--blue);
+
+        }
+
+        .product-cart__links-bookmark:active{
+            opacity: 0.5;
+        }
+
+    .product-cart__old-price,
+    .product-cart__price {
+        font-family: 'PT Sans', sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 18px;
+        text-align: center;
+        
+    }
+
+    .product-cart__old-price{
+        color: var(--gray);
+    }
+
+    .product-cart__price {
+        color: var(--white);
+        background-color: var(--red);
+    }
