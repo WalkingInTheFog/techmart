@@ -122,12 +122,15 @@ img{
     }
         .section-header-wrapper h2{
             color: var(--blue);
-            font-size: 30px;
-            line-height: 30px;
-            font-weight: normal;
-            text-transform: uppercase;
+            
         }
 
+     .title{
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: normal;
+        text-transform: uppercase;
+     }   
 /******************************************Main-header********************************************************************/
 
 .main-header{
@@ -539,10 +542,7 @@ img{
 .services__grid-layout {
 }
     .services__title {
-        font-size: 30px;
-        line-height: 30px;
-        font-weight: normal;  
-        text-transform: uppercase;
+    
         color: var(--black);
     }
 
@@ -589,11 +589,9 @@ img{
 }
 .services-desc__title {
 
-    font-size: 30px;
-    line-height: 30px;
+    
     color:var(--blue);
-    font-weight: normal;
-    text-transform: uppercase;
+
     text-decoration: none;
 }
 .services-desc__text {
@@ -607,4 +605,20 @@ img{
 .services-desc__img {
 }
 .services-desc__btn {
+}
+
+/******************************************about-us*************************************/
+.about-us {
+}
+.container {
+}
+.about-us__grid-layout {
+}
+.about-us__desc-col {
+}
+.section__title {
+}
+.red-btn {
+}
+.about-us__map-col {
 }
