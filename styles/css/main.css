@@ -528,3 +528,70 @@ img{
         color: var(--white);
         background-color: var(--red);
     }
+
+/********************************SERVISE*********************************************/ 
+
+.services {
+    background-color: var(--light-blue);
+}
+.container {
+}
+.services__grid-layout {
+}
+    .services__title {
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: normal;  
+        text-transform: uppercase;
+        color: var(--black);
+    }
+
+    .services__intro{
+        font-family: 'PT Sans', sans-serif;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 24px;
+        color: var(--black);
+    }
+
+
+.services-list {
+}
+.services-list__item {
+}
+.services-list__link {
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.services-list__link--active{
+    color: var(--blue);
+    background-color: var(--white);
+}
+
+    .services-list__link:hover,
+    .services-list__link:focus{
+        color: var(--white);
+        background-color: var(--darker-blue);
+    }
+
+    .services-list__link:active{
+        opacity: 0.7;
+    }
+
+.services-desc-list {
+}
+.services-desc-list__item {
+}
+.services-desc__title {
+}
+.services-desc__text {
+}
+.services-desc__img {
+}
+.services-desc__btn {
+}
