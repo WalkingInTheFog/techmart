@@ -44,6 +44,7 @@
     --logo-shadow:rgba(0, 0, 0, 0.24);
     --pop-up-map-shadow:rgba(0, 0, 0, 0.15);
 
+    --social-footer-bg:#212A3A;
 }
 
 .visually-hidden {
@@ -688,5 +689,25 @@ img{
         .footer-catalog-list__link:active{
             opacity: 0.5;
         }
+
+.copyright{
+    font-size: 16px;
+    line-height: 18px;
+}
+
+
+.social-list__link {
+    background-color:var(--social-footer-bg);
+}
+    .social-list__link:hover,
+    .social-list__link:focus{
+        background-color: var(--red);
+    }
+
+    .social-list__link:active{
+        background-color: var(--red);
+    }
+
+
 
 
