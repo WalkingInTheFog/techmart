@@ -588,8 +588,21 @@ img{
 .services-desc-list__item {
 }
 .services-desc__title {
+
+    font-size: 30px;
+    line-height: 30px;
+    color:var(--blue);
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 .services-desc__text {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 24px;
+    color: var(--black);
+
 }
 .services-desc__img {
 }
