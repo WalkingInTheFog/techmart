@@ -117,6 +117,17 @@ img{
         background-color: var(--red-active);
     }
 
+    .section-header-wrapper{
+        background-color: var(--light-beige);
+    }
+        .section-header-wrapper h2{
+            color: var(--blue);
+            font-size: 30px;
+            line-height: 30px;
+            font-weight: normal;
+            text-transform: uppercase;
+        }
+
 /******************************************Main-header********************************************************************/
 
 .main-header{
