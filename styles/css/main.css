@@ -160,6 +160,10 @@ img{
                 background-color: var(--red-active);
             }
 
+            .main-logo--footer{
+                font-size: 23px;
+            }
+
         .header-search-form {
         }
 
@@ -629,4 +633,23 @@ img{
 .red-btn {
 }
 .about-us__map-col {
+}
+
+/**************************main-footer*************************************/
+.main-footer{
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.main-footer__contact {
+    font-style: normal;
+}
+.main-footer__contact-address,
+.main-footer__contact-phone {
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--footer-address-blue);
+}
+.main-footer__contact-phone {
+    text-decoration: none;
 }
