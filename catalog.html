@@ -47,10 +47,19 @@
 
         <form class="header-search-form" action="https://echo.htmlacademy.ru/" method="GET" name="header-search-form">
 
-          <label class="visually-hidden" for="header-search-form__field">Что ищем?</label>
+          <label class="header-search-form__label">
 
-          <input class="header-search-form__field" type="text" name="header-search-form__field"
-            id="header-search-form__field" placeholder="Поиск:">
+            <span class="visually-hidden">Что ищем?</span>
+
+            <input class="header-search-form__field" type="text" name="header-search-form__field"
+              id="header-search-form__field" placeholder="Поиск:">
+
+            <svg class="header-search-form__icon" width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M13.458 12.044 17 15.586 15.586 17l-3.542-3.542A7.465 7.465 0 0 1 7.5 15 7.5 7.5 0 1 1 15 7.5c0 1.643-.542 3.24-1.542 4.544ZM7.5 2A5.506 5.506 0 0 0 2 7.5 5.506 5.506 0 0 0 7.5 13c3.032 0 5.5-2.468 5.5-5.5C13 4.467 10.532 2 7.5 2Z" />
+            </svg>
+
+          </label>
 
           <button class="visually-hidden" type="submit">Искать</button>
 
