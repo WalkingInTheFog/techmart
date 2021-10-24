@@ -84,21 +84,47 @@
 
       <div class="user-panel">
 
-        <div class="user-panel__guest">
+        <div class="user-panel__guest display-none">
 
-          <a class="user-panel__btn icon-inter" href="blank.html">Войти</a>
+          <a class="user-panel__btn" href="blank.html">
+
+            <svg class="user-panel__icon-login" width="21" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.875 8.5 6 0v6H0v5h6v6l8.875-8.5Z" />
+              <path
+                d="M16.986 15.01h-5.027V17h5.027c2.178 0 3.004-1.81 3.029-3.026V3.028C19.99 1.811 19.164 0 16.986 0h-5.027v1.99h5.027c.839 0 .992.681 1.01 1.057v10.904c-.017.376-.171 1.059-1.01 1.059Z" />
+            </svg>
+
+            <span> Войти </span>
+
+          </a>
 
           <a class="user-panel__btn" href="blank.html">Регистрация</a>
 
         </div>
 
-        <div class="user-panel__user display-none">
+        <div class="user-panel__user">
 
           <p class="user-panel__btn">
 
-            <a href="blank.html" class="icon-user">Имя Фамилия</a>
+            <a href="blank.html" class="user-panel__btn-inner-link">
 
-            <a href="blank.html" class="icon-logout">
+              <svg class="user-panel__icon-user" width="20" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17.881 14.166c-2.144-.735-4.256-1.666-5.207-2.39-.657-.501-.77-1.618-.517-2.415 1.118-.903 1.864-2.477 1.864-4.278C14.021 2.276 12.221 0 10 0S5.979 2.276 5.979 5.083c0 1.801.746 3.374 1.863 4.277.253.798.141 1.915-.517 2.416-.95.724-3.063 1.654-5.207 2.39C-.026 14.902 0 18 0 18h20s.025-3.099-2.119-3.834Z" />
+              </svg>
+
+              <span>Имя Фамилия</span>
+
+            </a>
+
+            <a href="blank.html" class="user-panel__btn-inner-link">
+
+              <svg class="user-panel__icon-logout" width="20" height="17" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 8.5 11.125 0v6h-6v5h6v6L20 8.5Z" />
+                <path
+                  d="M2.106 13.952V3.048c.018-.376.171-1.057 1.01-1.057h5.027V0H3.116C.938 0 .112 1.81.087 3.027v10.946C.112 15.189.938 17 3.116 17h5.027v-1.99H3.116c-.839 0-.992-.683-1.01-1.058Z" />
+              </svg>
 
               <span class="visually-hidden">выйти</span>
 
@@ -115,14 +141,13 @@
           </p>
 
         </div>
-
       </div>
 
     </div>
 
     <nav class="main-nav container">
 
-      <ul class="main-nav-list">
+      <ul class="main-nav-list reset-list">
         <li class="main-nav-list__item"><a href="index.html" class="main-nav-list__link">Главная</a></li>
         <li class="main-nav-list__item"><a href="blank.html" class="main-nav-list__link">Компания</a></li>
         <li class="main-nav-list__item"><a class="main-nav-list__link">Каталог</a></li>
