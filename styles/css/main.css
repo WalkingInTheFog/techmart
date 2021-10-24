@@ -791,3 +791,14 @@ img{
     .breadcrumbs-list__link[href]:active{
         opacity: 0.5;
     }
+
+    /*****************************inner-page-title**********************************/
+
+    .catalog-title{
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: normal;
+        color: var(--blue);
+        text-transform: uppercase;
+        background-color:var(--light-blue);
+    }
