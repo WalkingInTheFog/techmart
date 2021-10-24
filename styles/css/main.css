@@ -842,3 +842,18 @@ img{
         color: var(--black);
         text-align: center;
     }
+
+    .catalog-filters-list__label{
+        font-family: 'PT Sans',sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: var(--black);
+    }
+
+
+    .catalog-filters-list__input:disabled+.catalog-filters-list__label{
+        opacity: 0.4;
+    }
