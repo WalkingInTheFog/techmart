@@ -762,3 +762,32 @@ img{
     color: var(--gray);
 }
     
+/**************************************BREAD-CRUMBS**********************************************/
+
+.breadcrumbs-list {
+}
+.breadcrumbs-list__item {
+}
+.breadcrumbs-list__link-icon {
+}
+.icon-home {
+}
+.visually-hidden {
+}
+.breadcrumbs-list__link {
+    font-family: "PT Sans",sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--black);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+    .breadcrumbs-list__link[href]:hover,
+    .breadcrumbs-list__link[href]:focus{
+        text-decoration: underline;
+    }
+
+    .breadcrumbs-list__link[href]:active{
+        opacity: 0.5;
+    }
