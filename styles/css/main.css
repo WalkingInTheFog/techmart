@@ -830,3 +830,14 @@ img{
         color: var(--black);
 
     }
+
+    .catalog-filters-form__price-field{
+        font-family: 'PT Sans',sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 18px;
+        background-color: var(--filters-title-bg);
+        text-transform: uppercase;
+        color: var(--black);
+    }
