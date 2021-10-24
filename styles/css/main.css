@@ -857,3 +857,20 @@ img{
     .catalog-filters-list__input:disabled+.catalog-filters-list__label{
         opacity: 0.4;
     }
+
+    .catalog-filters-form__btn{
+
+        font-family: 'PT Sans',sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        
+        color: var(--black);
+
+    }
+
+   
+
