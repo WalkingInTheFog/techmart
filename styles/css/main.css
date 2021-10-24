@@ -840,4 +840,5 @@ img{
         background-color: var(--filters-title-bg);
         text-transform: uppercase;
         color: var(--black);
+        text-align: center;
     }
