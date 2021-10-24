@@ -730,3 +730,22 @@ img{
     .main-footer__links a:active{
         color: var(--red);
     }
+
+
+    /*******************************POP-Up******************************/
+    
+.feedback-form__label{
+    font-size: 18px;
+    line-height: 24px;
+    
+    color:var(--black);
+}
+
+.feedback-form__field-name::placeholder,
+.feedback-form__field-mail::placeholder,
+.feedback-form__field-textarea::placeholder{
+    font-size: 13px;
+    line-height: 24px;
+    color: var(--gray);
+}
+    
