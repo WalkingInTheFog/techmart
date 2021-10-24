@@ -45,6 +45,8 @@
     --pop-up-map-shadow:rgba(0, 0, 0, 0.15);
 
     --social-footer-bg:#212A3A;
+
+    --filters-title-bg:#F7F3EC;
 }
 
 .visually-hidden {
@@ -801,4 +803,17 @@ img{
         color: var(--blue);
         text-transform: uppercase;
         background-color:var(--light-blue);
+    }
+
+    /********************************FILTERS************************************************/
+
+    .firlters__title{
+        font-family: 'PT Sans',sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 18px;
+        text-transform: uppercase;
+
+        background-color: var(--filters-title-bg);
     }
