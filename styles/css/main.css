@@ -220,6 +220,19 @@ img{
             color: var(--white-hover);
         }
 
+            .basket--active{
+                background-color:var(--red);
+            }
+
+                .basket--active:hover,
+                .basket--active:focus{
+                    background-color:var(--red-hover);
+                }
+
+                .basket--active:active{
+                    background-color:var(--red-active);
+                }
+
         .checkout {
             background-color: var(--green);
         }
