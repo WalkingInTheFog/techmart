@@ -130,7 +130,7 @@ img{
 
      .title{
         font-size: 30px;
-        line-height: 30px;
+        line-height: 1.2;
         font-weight: normal;
         text-transform: uppercase;
      }   
@@ -933,5 +933,18 @@ img{
         .catalog-pagination-list__link--active:focus{
             background-color:var(--red-hover);
         }
+/***********************about-perforator*********************************/
+
+.about-perforator{
+
+    background-color: var(--light-blue);
+}
+
+.about-perforator p{
+
+    font-family: 'PT Sans',sans-serif;
+}
+
+
            
 
