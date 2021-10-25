@@ -909,5 +909,29 @@ img{
                 opacity: 0.3;
             }
    
+/***************************PAGINATION******************************/
+
+.catalog-pagination-list__link{
+
+    font-family: 'PT Sans',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+
+    color: var(--black);
+    text-decoration: none;
+}
+
+    .catalog-pagination-list__link--active{
+        color: var(--white);
+        background-color: var(--red);
+    }
+
+        .catalog-pagination-list__link--active:hover,
+        .catalog-pagination-list__link--active:focus{
+            background-color:var(--red-hover);
+        }
            
 
