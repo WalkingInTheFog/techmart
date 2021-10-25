@@ -872,5 +872,42 @@ img{
 
     }
 
+    .sorting-settings{
+        font-family: 'PT Sans',sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: var(--black);
+        background-color: var(--filters-title-bg);
+    }
+
+        .sorting-settings-list__item{
+            border-bottom:1px dashed var(--red); 
+        }
+
+            .sorting-settings-list__item:hover .sorting-settings-list__link,
+            .sorting-settings-list__item:focus .sorting-settings-list__link{
+                opacity: 1;
+            }
+
+        .sorting-settings-list__item--active{
+            border:none;
+        }
+
+            .sorting-settings-list__item--active .sorting-settings-list__link{
+                opacity: 1;
+                color: var(--red);
+            }
+
+        .sorting-settings-list__link{
+            text-decoration: none;
+           
+        }
+            .sorting-settings-list__link{
+                opacity: 0.3;
+            }
    
+           
 
