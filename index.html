@@ -749,13 +749,13 @@
 
   </div>
 
-  <div class="feedback-pop-up display-none">
+  <div class="feedback-pop-up">
+
+    <button class="close-btn" type="button">
+      <span class="visually-hidden"> закрыть окно</span>
+    </button>
 
     <form action="https://echo.htmlacademy.ru/" name="feedback-form" class="feedback-form">
-
-      <button class="close-btn" type="button">
-        <span class="visually-hidden"> закрыть окно</span>
-      </button>
 
       <p>
 
@@ -775,7 +775,7 @@
 
       </p>
 
-      <p>
+      <p class="feedback-form__text-area">
 
         <label class="feedback-form__label" for="feedback-form__msg">Текст письма:</label>
 
