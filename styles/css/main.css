@@ -173,6 +173,11 @@ img{
         grid-template-columns: 220px 270px repeat(3, 150px);
     }
 
+    .main-header__second-row-grid-layout{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
         .main-logo {
             font-family: Cuprum,Tahoma,sans-serif;
             font-style: normal;
