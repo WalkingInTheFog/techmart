@@ -914,6 +914,21 @@ img{
 
     /********************************FILTERS************************************************/
 
+.catalog-grid{
+
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    column-gap: 20px;
+
+}
+
+.catalog-list{
+    display: grid;
+    grid-template-columns: repeat(3,220px);
+    
+    gap: 20px;
+}
+
     .firlters__title{
         font-family: 'PT Sans',sans-serif;
         font-style: normal;
