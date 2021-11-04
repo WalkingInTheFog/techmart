@@ -748,6 +748,12 @@ img{
     background-color: var(--blue);
 }
 
+.main-footer__first-row-grid-layout{
+
+    display: grid;
+    grid-template-columns: 350px 1fr;
+}
+
 .main-footer__contact {
     font-style: normal;
 }
@@ -795,6 +801,17 @@ img{
         .footer-catalog-list__link:active{
             opacity: 0.5;
         }
+
+
+
+.main-footer__second-row{
+    background-color:var(--darker-blue);
+}
+
+.main-footer__second-row-grid-layout{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
 .copyright{
     font-size: 16px;
