@@ -144,6 +144,8 @@ img{
     }
 
     .section-header-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 230px;
         background-color: var(--light-beige);
     }
         .section-header-wrapper h2{
