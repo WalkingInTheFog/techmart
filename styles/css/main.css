@@ -713,6 +713,13 @@ img{
 
 /******************************************about-us*************************************/
 
+.about-us__grid-layout{
+
+    display: grid;
+    grid-template-columns: 1fr 300px; 
+
+}
+
 .about-us__desc-col {
 }
 .section__title {
