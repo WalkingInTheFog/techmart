@@ -615,6 +615,20 @@ img{
         background-color: var(--red);
     }
 
+
+
+/********************************PRODUCERS*********************************************/ 
+
+
+.producers-list{
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
+    grid-template-rows: repeat(2, 145px);
+    gap: 20px;
+}
+
+
+
 /********************************SERVISE*********************************************/ 
 
 .services {
