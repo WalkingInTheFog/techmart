@@ -92,9 +92,9 @@
 
       <div class="user-panel">
 
-        <div class="user-panel__guest">
+        <div class="user-panel__guest display-none">
 
-          <a class="user-panel__btn user-panel__guest-btn user-panel__guest-btn--inter" href="blank.html">
+          <a class="user-panel__btn user-panel__guest-btn user-panel__guest-btn--enter" href="blank.html">
 
             <svg class="user-panel__icon-login" width="21" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M14.875 8.5 6 0v6H0v5h6v6l8.875-8.5Z" />
@@ -111,22 +111,22 @@
 
         </div>
 
-        <div class="user-panel__user display-none">
+        <div class="user-panel__user">
 
-          <p class="user-panel__btn">
+          <p class="user-panel__btn user-panel__user--btn">
 
-            <a href="blank.html" class="user-panel__btn-inner-link">
+            <a href="blank.html" class="user-panel__btn-inner-link user-panel__btn-inner-link--profile">
 
               <svg class="user-panel__icon-user" width="20" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M17.881 14.166c-2.144-.735-4.256-1.666-5.207-2.39-.657-.501-.77-1.618-.517-2.415 1.118-.903 1.864-2.477 1.864-4.278C14.021 2.276 12.221 0 10 0S5.979 2.276 5.979 5.083c0 1.801.746 3.374 1.863 4.277.253.798.141 1.915-.517 2.416-.95.724-3.063 1.654-5.207 2.39C-.026 14.902 0 18 0 18h20s.025-3.099-2.119-3.834Z" />
               </svg>
 
-              <span>Имя Фамилия</span>
+              <span class="user-panel__user-name">Владислав Иванников</span>
 
             </a>
 
-            <a href="blank.html" class="user-panel__btn-inner-link">
+            <a href="blank.html" class="user-panel__btn-inner-link user-panel__btn-inner-link--logout">
 
               <svg class="user-panel__icon-logout" width="20" height="17" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -141,7 +141,7 @@
 
           </p>
 
-          <p>
+          <p class="user-panel__user-link-wrapper">
 
             <a class="user-panel__user-link" href="blank.html">Мои заказы </a>
 
