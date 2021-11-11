@@ -30,6 +30,8 @@
     --promo--btn-bg:rgba(255, 255, 255, 0.3);
     --promo-btn-hover:rgba(197,197,197, 0.3);
     --promo-btn-active:rgba(169,169,169, 0.3);
+    --promo-slider-img-bg:#796f69;
+    
 
    
     --servises-shadow-light:#405069;
@@ -614,10 +616,12 @@ img{
     grid-row:2/4 ;
     grid-column:1/3 ;
 }    
-
+    .promo-slider-list__item{
+        background-color: var(--promo-slider-img-bg);
+    }
 
         .promo-slide__head-wrapper {
-            background-color: #fff;
+            
         }
             
             .promo-slide__head-wrapper h3 {
@@ -636,6 +640,10 @@ img{
                 color: var(--white);
             }
 
+            .promo-slider__img{
+                width: 620px;
+                height: 266px;
+            }   
 
   /* ***************************Popular-goods************************************* */
 
