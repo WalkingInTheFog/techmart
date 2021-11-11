@@ -330,12 +330,46 @@ img{
 
 /**********************************user-panel***************************************/
 .user-panel {
+    display: flex;
+
 }
     .user-panel__guest {
+        display:flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        width: 281px;
+        
+        margin-top: 44px;
+        margin-left: auto;
+        
     }
+
+    .user-panel__guest-btn{
+        padding: 14px;
+        margin-bottom: 10px;
+        
+    }
+
+    .user-panel__guest-btn:first-child{
+        margin-right: 10px;
+    }
+
+    .user-panel__guest-btn--inter{
+        display: flex;
+        align-items: baseline;
+        padding-left: 13px;
+        padding-right: 25px;
+        max-width: 120px;
+    }
+
+    .user-panel__guest-btn--registering{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
         .user-panel__btn {
             text-decoration: none;
-            text-align: center;
+          
             font-size: 21px;
             line-height: 21px;
             color: var(--black);
@@ -345,6 +379,7 @@ img{
             .user-panel__icon-login{
                 width: 20px;
                 height: 17px;
+                margin-right: 13px;
                 fill: var(--gray-active);
             }
 
