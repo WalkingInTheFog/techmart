@@ -1029,26 +1029,35 @@ img{
         margin: auto;
     }
 
-.main-footer__links p{
-    color: var(--white);
-    font-size: 16px;
-    line-height: 18px;
+
+.main-footer__links{
+
+    display: flex;
+    align-items: center;
 }
 
-.main-footer__links a{
-    font-size: 16px;
-    line-height: 18px;
-    text-decoration: none;
-    color:var(--footer-text-gold);
-}
-    .main-footer__links a:hover,
-    .main-footer__links a:focus{
-        text-decoration: underline;
+    .main-footer__links p{
+        margin: 0;
+        
+        color: var(--white);
+        font-size: 16px;
+        line-height: 18px;
     }
 
-    .main-footer__links a:active{
-        color: var(--red);
+    .main-footer__links a{
+        font-size: 16px;
+        line-height: 18px;
+        text-decoration: none;
+        color:var(--footer-text-gold);
     }
+        .main-footer__links a:hover,
+        .main-footer__links a:focus{
+            text-decoration: underline;
+        }
+
+        .main-footer__links a:active{
+            color: var(--red);
+        }
 
 
     /*******************************POP-Up******************************/
