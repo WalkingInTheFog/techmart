@@ -43,7 +43,7 @@
 
       <div class="container main-header__top-row-grid-layout">
 
-        <a class="main-logo" href="index.html">Техномарт</a>
+        <a class="main-logo">Техномарт</a>
 
         <form class="header-search-form" action="https://echo.htmlacademy.ru/" method="GET" name="header-search-form">
 
@@ -67,8 +67,7 @@
 
         <a class="bookmarks icon-bookmark" href="blank.html">Закладки: <span class="bookmarks__count">0</span> </a>
 
-        <a class="basket basket--active icon-basket" href="blank.html">Корзина: <span
-            class="basket__goods-count">10</span> </a>
+        <a class="basket icon-basket" href="blank.html">Корзина: <span class="basket__goods-count">0</span> </a>
 
         <a class="checkout" href="blank.html">Оформить заказ</a>
 
@@ -86,7 +85,7 @@
 
         <a class="contacts__phone icon-phone" href="tel:78005558628">+7 800 555-86-28</a>
 
-        <p>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
+        <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
 
       </address>
 
@@ -95,7 +94,7 @@
 
         <div class="user-panel__guest display-none">
 
-          <a class="user-panel__btn" href="blank.html">
+          <a class="user-panel__btn user-panel__guest-btn user-panel__guest-btn--enter" href="blank.html">
 
             <svg class="user-panel__icon-login" width="21" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M14.875 8.5 6 0v6H0v5h6v6l8.875-8.5Z" />
@@ -107,26 +106,27 @@
 
           </a>
 
-          <a class="user-panel__btn" href="blank.html">Регистрация</a>
+          <a class="user-panel__btn user-panel__guest-btn user-panel__guest-btn--registering"
+            href="blank.html">Регистрация</a>
 
         </div>
 
         <div class="user-panel__user">
 
-          <p class="user-panel__btn">
+          <p class="user-panel__btn user-panel__user--btn">
 
-            <a href="blank.html" class="user-panel__btn-inner-link">
+            <a href="blank.html" class="user-panel__btn-inner-link user-panel__btn-inner-link--profile">
 
               <svg class="user-panel__icon-user" width="20" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M17.881 14.166c-2.144-.735-4.256-1.666-5.207-2.39-.657-.501-.77-1.618-.517-2.415 1.118-.903 1.864-2.477 1.864-4.278C14.021 2.276 12.221 0 10 0S5.979 2.276 5.979 5.083c0 1.801.746 3.374 1.863 4.277.253.798.141 1.915-.517 2.416-.95.724-3.063 1.654-5.207 2.39C-.026 14.902 0 18 0 18h20s.025-3.099-2.119-3.834Z" />
               </svg>
 
-              <span>Имя Фамилия</span>
+              <span class="user-panel__user-name">Владислав Иванников</span>
 
             </a>
 
-            <a href="blank.html" class="user-panel__btn-inner-link">
+            <a href="blank.html" class="user-panel__btn-inner-link user-panel__btn-inner-link--logout">
 
               <svg class="user-panel__icon-logout" width="20" height="17" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -141,7 +141,7 @@
 
           </p>
 
-          <p>
+          <p class="user-panel__user-link-wrapper">
 
             <a class="user-panel__user-link" href="blank.html">Мои заказы </a>
 
@@ -150,6 +150,7 @@
           </p>
 
         </div>
+
       </div>
 
     </div>
@@ -164,6 +165,7 @@
         <li class="main-nav-list__item"><a href="blank.html" class="main-nav-list__link">Спецпредложения</a></li>
         <li class="main-nav-list__item"><a href="blank.html" class="main-nav-list__link">Доставка</a></li>
         <li class="main-nav-list__item"><a href="blank.html" class="main-nav-list__link">Контакты</a></li>
+
       </ul>
 
     </nav>
@@ -693,11 +695,11 @@
 
       <div class="footer-top__logo-contact-wrapper">
 
-        <a class="main-logo main-logo--footer" href="index.html">Техномарт</a>
+        <a class="main-logo main-logo--footer">Техномарт</a>
 
         <address class="main-footer__contact">
 
-          <p class="main-footer__contact-address">г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
+          <p class="main-footer__contact-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
 
           <a class="main-footer__contact-phone" href="tel:78005558628">+7 800 555-86-28</a>
 
@@ -710,9 +712,10 @@
         <ul class="footer-nav-list reset-list">
           <li class="footer-nav-list__item"><a href="blank.html" class="footer-nav-list__link">Компания</a></li>
           <li class="footer-nav-list__item"><a href="blank.html" class="footer-nav-list__link">Новости</a></li>
-          <li class="footer-nav-list__item"><a href="catalog.html" class="footer-nav-list__link">Каталог</a></li>
+          <li class="footer-nav-list__item"><a class="footer-nav-list__link">Каталог</a></li>
           <li class="footer-nav-list__item"><a href="blank.html" class="footer-nav-list__link">Доставка</a></li>
           <li class="footer-nav-list__item"><a href="blank.html" class="footer-nav-list__link">Контакты</a></li>
+
         </ul>
 
         <ul class="footer-catalog-list reset-list">
@@ -728,6 +731,7 @@
           <li class="footer-catalog-list__item">
             <a href="blank.html" class="footer-catalog-list__link">Спецпредложения</a>
           </li>
+
         </ul>
 
       </div>
@@ -754,7 +758,8 @@
                 ссылка на аккаунт в ВКонтакте
               </span>
 
-              <svg width="27" height="16" viewBox="0 0 27 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg class="social-list__img" width="27" height="16" viewBox="0 0 27 16" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M16.138 12.51C17.094 12.201 18.318 14.55 19.621 15.449C20.599 16.13 21.348 15.983 21.348 15.983L24.821 15.933C24.821 15.933 26.636 15.821 25.778 14.379C25.707 14.259 25.275 13.31 23.193 11.357C21.016 9.31398 21.311 9.64498 23.932 6.11298C25.529 3.95998 26.168 2.64498 25.968 2.08498C25.776 1.54598 24.603 1.68598 24.603 1.68598L20.69 1.71298C20.309 1.71398 19.986 1.83198 19.839 2.22798C19.836 2.23198 19.218 3.89398 18.394 5.30698C16.653 8.29598 15.958 8.45498 15.67 8.26798C15.009 7.83498 15.176 6.53098 15.176 5.60398C15.176 2.70698 15.608 1.49898 14.33 1.18698C13.903 1.08298 13.591 1.01498 12.502 1.00498C11.11 0.983976 9.928 1.00498 9.258 1.33398C8.813 1.55698 8.472 2.04598 8.679 2.07398C8.939 2.10898 9.522 2.23398 9.834 2.65998C10.235 3.21198 10.223 4.44898 10.223 4.44898C10.223 4.44898 10.452 7.85998 9.683 8.28298C9.155 8.57298 8.433 7.98098 6.88 5.26698C6.087 3.87898 5.488 2.34498 5.488 2.34498C5.488 2.34498 5.372 2.05998 5.162 1.90398C4.912 1.71898 4.562 1.65998 4.562 1.65998L0.848 1.68398C0.848 1.68398 0.29 1.69998 0.0850002 1.94598C-0.0969998 2.16398 0.0700002 2.61398 0.0700002 2.61398C0.0700002 2.61398 2.979 9.49498 6.273 12.961C9.293 16.143 12.725 15.932 12.725 15.932H14.28C14.28 15.932 14.749 15.878 14.989 15.62C15.213 15.38 15.203 14.929 15.203 14.929C15.203 14.929 15.172 12.82 16.138 12.51Z"
                   fill="white" />
@@ -772,7 +777,8 @@
                 ссылка на аккаунт в Фейсбук
               </span>
 
-              <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg class="social-list__img" width="12" height="22" viewBox="0 0 12 22" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 4V0H8C5.79086 0 4 1.79086 4 4V8H0V12H4V22H8V12H12V8H8V4H12Z" fill="white" />
               </svg>
 
@@ -788,7 +794,8 @@
                 ссылка на аккаунт в Инстограмм
               </span>
 
-              <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg class="social-list__img" width="21" height="21" viewBox="0 0 21 21" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M3 0H18C19.65 0 21 1.35 21 3V18C21 19.65 19.65 21 18 21H3C1.35 21 0 19.65 0 18V3C0 1.35 1.35 0 3 0ZM14 10.5C14 8.57 12.43 7 10.5 7C8.57 7 7 8.57 7 10.5C7 12.43 8.57 14 10.5 14C12.43 14 14 12.43 14 10.5ZM3 18V9H4.181C4.0626 9.49127 4.00186 9.99467 4 10.5C4 14.0899 6.91015 17 10.5 17C14.0899 17 17 14.0899 17 10.5C16.9986 9.99464 16.9379 9.49118 16.819 9H18V18H3ZM14 7H18V3H14V7Z"
                   fill="white" />
@@ -802,17 +809,9 @@
 
         <div class="main-footer__links">
 
-          <p>Обратная связь:</p>
+          <p>Обратная связь: <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
 
-          <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-
-        </div>
-
-        <div class="main-footer__links">
-
-          <p>Разработано — </p>
-
-          <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+          <p>Разработано — <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
 
         </div>
 
