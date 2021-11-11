@@ -998,7 +998,21 @@ img{
 }
 
 
+.social-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-list__item:not(:last-child){
+    margin-right: 5px;
+}
+
 .social-list__link {
+    display: flex;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
     background-color:var(--social-footer-bg);
 }
     .social-list__link:hover,
@@ -1010,6 +1024,10 @@ img{
         background-color: var(--red);
     }
 
+
+    .social-list__img{
+        margin: auto;
+    }
 
 .main-footer__links p{
     color: var(--white);
