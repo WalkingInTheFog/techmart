@@ -798,15 +798,40 @@ img{
 
 .services-desc-list {
 }
-.services-desc-list__item {
-}
-.services-desc__title {
+    
+    .services-desc-list__item{
+        background-repeat: no-repeat;
+        background-position: right top;
+
+    }
+    
+    .services-desc-list__item--divery {
+        background-image: url("../../img/delivery.png");
+        background-size: 468px 261px;
+    }
+
+    .services-desc-list__item--guarantee {
+        background-image: url("../../img/guarantee.png");
+        background-size: 389px 283px;
+    }
+
+    .services-desc-list__item--credit {
+        background-image: url("../../img/money.png");
+        background-size: 465px 285px;
+    }
+
+
 
     
-    color:var(--blue);
+        .services-desc__title {
+            width: 100%;
 
-    text-decoration: none;
-}
+            
+            color:var(--blue);
+
+            text-decoration: none;
+        }
+
 .services-desc__text {
     font-family: 'PT Sans', sans-serif;
     font-weight: normal;
