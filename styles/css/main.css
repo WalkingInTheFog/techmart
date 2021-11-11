@@ -495,18 +495,42 @@ img{
 /*****************************************MAIN-NAV*********************************************/
 
 .main-nav-list {
+    display: flex;
+    flex-wrap: wrap;
+
     background-color:var(--blue);
     margin-bottom: 60px;
+    border-bottom:5px solid var(--darker-blue);;
     
 }
     .main-nav-list__item {
+        flex-grow: 1;
     }
 
         .main-nav-list__link {
+            position: relative;
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding-top: 22px;
+            padding-bottom: 18px;
+            padding-left: 30px;
+            padding-right: 30px;
             font-size: 18px;
             line-height: 24px;
             color: var(--white);
             text-decoration: none;
+        }
+
+        .main-nav-list__link::after{
+            content: "";
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            right: 0;
+            display: block;
+            height: 5px;
+            background-color: transparent;
         }
 
             .main-nav-list__link:hover,
@@ -514,7 +538,8 @@ img{
                 background-color:var(--darker-blue);
             }
 
-            .main-nav-list__link:active{
+            .main-nav-list__link:active,
+            .main-nav-list__link:active::after{ 
                 color: var(--white-hover);
                 background-color:var(--darker-blue-active);
             }
