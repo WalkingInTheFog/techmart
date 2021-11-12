@@ -1231,6 +1231,10 @@ img{
     }
 
     .sorting-settings{
+        
+        display: flex;
+        
+
         font-family: 'PT Sans',sans-serif;
         font-style: normal;
         font-weight: normal;
@@ -1240,9 +1244,42 @@ img{
         color: var(--black);
         background-color: var(--filters-title-bg);
     }
+    
+   .sorting-settings__title{
+       margin-right: auto;
+       padding: 10px;
+       padding-left: 20px;
+       margin: 0;
+       margin-right: auto;
+   } 
+
+ .sorting-settings-list{
+    width: 460px;
+
+    display: flex;
+    flex-wrap: wrap ;
+    align-items: center;
+ }
 
         .sorting-settings-list__item{
             border-bottom:1px dashed var(--red); 
+        }
+
+        .sorting-settings-list__item--sort-price{
+            margin-right: 70px;
+        }
+
+        .sorting-settings-list__item--sort-type{
+            margin-right: 65px;
+        }
+
+        .sorting-settings-list__item--soft-function{
+            margin-right: 45px;
+        }
+
+        .sorting-settings-list__item--to-less{
+
+            margin-right: 20px;
         }
 
             .sorting-settings-list__item:hover .sorting-settings-list__link,
