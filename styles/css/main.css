@@ -52,8 +52,8 @@
 }
 
 *,
-*:before,
-*:after{
+*::before,
+*::after{
     box-sizing: border-box;
     
 }
@@ -1134,12 +1134,18 @@ img{
     /*****************************inner-page-title**********************************/
 
     .catalog-title{
+        
+        margin-top: 0;
+        margin-bottom: 20px;
+        padding: 30px;
+        
         font-size: 30px;
         line-height: 1.2;
         font-weight: normal;
         color: var(--blue);
         text-transform: uppercase;
         background-color:var(--light-blue);
+        
     }
 
     /********************************FILTERS************************************************/
