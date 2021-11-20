@@ -1189,6 +1189,15 @@ img{
 
     }
 
+    .catalog-filters-form fieldset{
+        padding: 0;
+        padding-bottom: 25px;
+        margin: 0;
+        margin-bottom: 16px;
+        border:none;
+        border-bottom:1px solid  var(--light-gray);
+    }
+
     .catalog-filters-form__price-field{
         font-family: 'PT Sans',sans-serif;
         font-style: normal;
