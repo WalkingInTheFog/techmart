@@ -1,5 +1,5 @@
 :root{
-
+   
     --black:#000;
     --white:#fff;
     --white-hover:RGBA(255,255,255, 0.5);
@@ -42,8 +42,10 @@
 
    
     --pop-up-footer-bg:#F4F4F4;
+     
+    --logo-shadow:#b52933;
+    --logo-shadow-active:#8e1e26;
     
-    --logo-shadow:rgba(0, 0, 0, 0.24);
     --pop-up-map-shadow:rgba(0, 0, 0, 0.15);
 
     --social-footer-bg:#212A3A;
@@ -190,34 +192,62 @@ img{
     }
 
         .main-logo {
-            font-family: Cuprum,Tahoma,sans-serif;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 18px;  
-            text-transform: uppercase;
-            text-decoration: none;
-            text-align: center;
-            color: var(--white);
+            position: relative;
+            display: flex;
+            
+            padding-top: 12px;
+            padding-bottom: 12px;
+            min-height: 42px;
             background-color: var(--red);
 
-            box-shadow: inset 0px -5px 0px var(--logo-shadow);
         }
 
             .main-logo:active{
                 background-color: var(--red-active);
             }
 
+                .main-logo:active::after{
+                    background-color: var(--logo-shadow-active);
+                }
+
             .main-logo--footer{
                 font-size: 23px;
             }
 
+                .main-logo__img{
+                    margin: auto;
+                }
+
+                .main-logo:after{
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 5px;
+                    left: 0;
+                    bottom:-5px;
+                    background-color: var(--logo-shadow);
+                }
+
+                
+
         .header-search-form {
         }
 
-            .header-search-form__label{}
+            .header-search-form__label{
+                display: block;
+                position: relative;
+                height: 100%;
+
+            }
 
             .header-search-form__icon{
+                position: absolute;
+                left: 17px;
+                top:12px;
+
+                width: 17px;
+                height: 17px;
+
                 fill:var(--white);
                 opacity: 0.3;
 
@@ -228,7 +258,10 @@ img{
             }
 
                 .header-search-form__field{
-
+                    width: 100%;
+                    height: 100%;
+                    border:none;
+                    padding-left: 42px;
                     font-size: 18px;
                     line-height: 24px;
 
