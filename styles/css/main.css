@@ -287,10 +287,65 @@ img{
         .bookmarks,
         .basket,
         .checkout {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             text-decoration: none;
             font-size: 18px;
             line-height: 18px;
             color: var(--white);
+        }
+
+        .bookmarks,
+        .basket{
+            position: relative;
+            padding-left: 35px;
+
+        }
+
+        .basket{
+            flex-wrap: wrap;
+        }
+
+            .bookmarks:before,
+            .basket::before{
+                content:"";
+                position: absolute;
+               left: 20px;
+               top:12px;
+            }
+
+            .bookmarks:before{
+
+                background-image: url("../../img/icon-bookmark.svg");
+                background-repeat: no-repeat;
+                background-size:contain ;
+                width: 16px;
+                height: 14px;
+                opacity: 0.3;
+            }
+
+            .basket::before{
+                background-image: url("../../img/icon-cart.svg");
+                background-repeat: no-repeat;
+                background-size:contain ;
+                width: 15px;
+                height: 15px;
+                opacity: 0.3;
+            }
+
+        .bookmarks__count,
+        .basket__goods-count{
+            margin-left: 5px;
+        }
+
+
+        .bookmarks:hover::before,
+        .bookmarks:focus::before,
+        .basket:focus::before,
+        .basket:hover::before{
+            opacity: 1;
+
         }
 
         .bookmarks:active,
@@ -298,6 +353,11 @@ img{
             background-color:var(--very-darker-blue);
             color: var(--white-hover);
         }
+
+            .bookmarks:active::before,
+            .basket:active::before{
+               opacity: 0.3;
+            }
 
             .basket--active{
                 background-color:var(--red);
@@ -325,7 +385,7 @@ img{
                 color: var(--white-hover);
             }
 
-
+         
 
     .main-header__desc{
 
