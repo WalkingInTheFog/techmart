@@ -509,35 +509,25 @@ img{
             }
 
 /**********************user-panel__user*****************************************/
-    .user-panel__user {
+    .user-panel-user {
         width: 300px;
         max-width: 300px;
         min-width: 300px;
         margin-left: auto;
     }
 
-    .user-panel__user--btn{
+    .user-panel-user__btn{
         display: flex;
         align-items: baseline;
-        padding: 14px 10px 11px 13px;
+        padding: 14px 10px 15px 13px;
+        margin: 0;
         margin-bottom: 10px;
+        background-color:var(--white);
     }
 
-        .user-panel__btn-inner-link--profile{
+        .user-panel-user__profile-link{
             display: flex;
-        }
-
-            .user-panel__icon-user{
-                margin-right: 14px;
-            }
-
-            .user-panel__user-name{
             
-                max-width: 210px;
-            }
-
-
-        .user-panel__btn-inner-link{
             text-decoration: none;
         
             font-size: 21px;
@@ -546,29 +536,45 @@ img{
             background-color:var(--white);
         }
 
-        .user-panel__btn-inner-link--logout{
+            .user-panel-user__icon-user{
+                margin-right: 14px;
+                
+            }
+
+           
+
+            .user-panel-user__name{
+                display: block;
+                max-width: 210px;
+                overflow:hidden ;
+            }
+
+
+        .user-panel-user__logout{
             margin-left:auto;
         }
 
-           .user-panel__btn-inner-link:active{
+           
+
+           .user-panel-user__profile-link:active{
                 color: var(--gray-active);
            }
 
             
-        .user-panel__icon-user,
-        .user-panel__icon-logout{
+        .user-panel-user__icon-user,
+        .user-panel-user__icon-logout{
             fill: var(--gray-active);
         }
 
-            .user-panel__btn-inner-link:hover .user-panel__icon-user,
-            .user-panel__btn-inner-link:focus .user-panel__icon-user,
-            .user-panel__btn-inner-link:hover .user-panel__icon-logout,
-            .user-panel__btn-inner-link:focus .user-panel__icon-logout{
+            .user-panel-user__profile-link:hover .user-panel-user__icon-user,
+            .user-panel-user__profile-link:focus .user-panel-user__icon-user,
+            .user-panel-user__logout:hover .user-panel-user__icon-logout,
+            .user-panel-user__logout:focus .user-panel-user__icon-logout{
                 fill: var(--blue-active);
             }
 
-            .user-panel__btn-inner-link:active .user-panel__icon-user,
-            .user-panel__btn-inner-link:active .user-panel__icon-logout{
+            .user-panel-user__profile-link:active .user-panel-user__icon-user,
+            .user-panel-user__logout:active .user-panel-user__icon-logout{
                 fill: var(--gray-active);
             }    
 
