@@ -624,6 +624,7 @@ img{
 
 .main-nav-list {
     display: flex;
+    justify-content: flex-start;
     flex-wrap: wrap;
 
     background-color:var(--blue);
@@ -680,7 +681,7 @@ img{
 
 .promo__grid-layout{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 300px);
     grid-template-rows: repeat(3, 123px);
     gap:20px;
 
@@ -705,10 +706,55 @@ img{
 
 
 .promo__item{
-    color: var(--white);
+    
+   padding: 20px;
+   padding-right: 120px;
+   color: var(--white);
 }
 
+    .icon-buket{
+     
+        background-image: url(../../img/bucket.svg);
+        background-repeat: no-repeat;
+        background-size: 44px 65px;
+        background-position: 213px 31px;
+        
+    }
+
+    .icon-drill{
+
+        background-image: url(../../img/drill.svg);
+        background-repeat: no-repeat;
+        background-size: 75px 61px;
+        background-position: 194px 34px;
+    }
+
+    .icon-tractor{
+        background-image: url(../../img/tractor.svg);
+        background-repeat: no-repeat;
+        background-size: 78px 62px;
+        background-position: 191px 31px;
+
+    }
+
+    .icon-cart{
+        background-image: url(../../img/cart.svg);
+        background-repeat: no-repeat;
+        background-size: 59px 72px;
+        background-position: 196px 26px;
+    }
+
+    .icon-car{
+
+        background-image: url(../../img/car.svg);
+        background-repeat: no-repeat;
+        background-size: 78px 63px;
+        background-position: 191px 32px;
+    }
+
     .promo__item h3{
+        margin: 0;
+        margin-bottom: 14px;
         font-size: 24px;
         line-height: 30px;
         font-weight: bold;
@@ -717,13 +763,18 @@ img{
     }      
 
     .promo__item a{
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 135px;
+        height: 38px;
+       
         font-size: 14px;
         line-height: 18px;
         text-align: center;
         text-decoration: none;
         color: var(--white);
-
+        text-transform: uppercase;
         background-color:var(--promo--btn-bg);
 
     }
