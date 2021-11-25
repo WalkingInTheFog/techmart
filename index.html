@@ -232,7 +232,7 @@
 
           <ul class="promo-slider-list reset-list">
 
-            <li class="promo-slider-list__item promo-slide">
+            <li class="promo-slider-list__item promo-slider-list__item--perforators">
 
               <div class="promo-slide__head-wrapper">
 
@@ -241,14 +241,11 @@
 
               </div>
 
-              <img class="promo-slider__img" src="img/perforators-promo.jpg"
-                alt="рабочий пробивает стену, Перфоратором фирмы 'Bosch'" width="620" height="266">
-
-              <a class="btn btn--red" href="catalog.html">открыть каталог</a>
+              <a class="promo-slider__btn btn--red" href="catalog.html">открыть каталог</a>
 
             </li>
 
-            <li class="promo-slider-list__item promo-slide display-none">
+            <li class="promo-slider-list__item promo-slider-list__item--drill display-none">
 
               <div class="promo-slide__head-wrapper">
 
@@ -257,10 +254,7 @@
 
               </div>
 
-              <img class="promo-slider__img" src="img/drill-promo.jpg" alt="рабочий сверлит стену, дрелью фирмы 'Bosch'"
-                width="620" height="266">
-
-              <a class="btn btn--red" href="catalog.html">открыть каталог</a>
+              <a class="promo-slider__btn btn--red" href="catalog.html">открыть каталог</a>
 
             </li>
 
@@ -268,28 +262,29 @@
 
           <div class="promo-slider__controls">
 
-            <button class="promo-slider__controls-button icon-arrow" type="button" disabled>
+            <button class="promo-slider__controls-button promo-slider__controls-button--right icon-arrow" type="button"
+              disabled>
 
               <span class="visually-hidden">предыдущий слайд</span>
 
             </button>
 
-            <button class="promo-slider__controls-button icon-arrow--rewerse" type="button">
+            <button class="promo-slider__controls-button promo-slider__controls-button--left icon-arrow" type="button">
 
               <span class="visually-hidden">следующий слайд</span>
 
             </button>
 
-            <p>
+            <p class="promo-slider__toggles">
 
               <label class="visually-hidden" for="promo-slider__first-slide">первый слайд</label>
 
-              <input class="promo-slider__controls-radio" type="radio" id="promo-slider__first-slide"
-                name="promo-slider" value="first">
+              <input class="promo-slider__toggles-radio" type="radio" id="promo-slider__first-slide" name="promo-slider"
+                value="first">
 
               <label class="visually-hidden" for="promo-slider__second-slide">второй слайд</label>
 
-              <input class="promo-slider__controls-radio" type="radio" id="promo-slider__second-slide"
+              <input class="promo-slider__toggles-radio" type="radio" id="promo-slider__second-slide"
                 name="promo-slider" value="second">
 
             </p>
