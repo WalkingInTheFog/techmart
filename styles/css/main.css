@@ -182,8 +182,8 @@ img{
      .new-flag::before{
         content: 'new';
         position: absolute;
-        right: -24px;
-        top:10px;
+        right: -27px;
+        top:7px;
         width: 100px;
         height: 30px;
         display: flex;
