@@ -960,7 +960,7 @@ img{
 
         .product-cart:hover .product-cart__links,
         .product-cart:focus .product-cart__links{
-            display: flex;
+            display: block;
         }
 
     .product-cart__title {
@@ -992,28 +992,29 @@ img{
 
     .product-cart__links {
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+       
 
         position: absolute;
         left:0;
         right: 0;
         width: 218px;
         height: 170px;    
-
+        padding-top: 38px;
         background-color: var(--white);
 
     }
 
     .product-cart__links p{
+        display: flex;
         margin: 0;
+
     }
     
         .product-cart__links-buy, 
         .product-cart__links-bookmark{
+
             display: block;
+            margin: auto;
             width: 135px;
             height: 38px;
               
