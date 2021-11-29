@@ -178,6 +178,27 @@ img{
         font-weight: normal;
         text-transform: uppercase;
      }   
+
+     .new-flag::before{
+        content: 'new';
+        position: absolute;
+        right: -24px;
+        top:10px;
+        width: 100px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        font-family: Cuprum,sans-serif;
+        font-size: 14px;
+        line-height: 1.28;
+        color: var(--white);
+        background-color: var(--red);
+        transform: rotate(45deg);
+        z-index: 22;
+
+     }
 /******************************************Main-header********************************************************************/
 
 .main-header{
@@ -716,7 +737,8 @@ img{
 
 
 .promo__item{
-    
+   position: relative;
+    overflow:hidden;
    padding: 20px;
    padding-right: 120px;
    color: var(--white);
@@ -951,6 +973,7 @@ img{
     justify-content: flex-start;
     border: 1px solid var(--light-gray);
     background-color: var(--white);
+    overflow: hidden;
 }
 
         .product-cart:hover,
