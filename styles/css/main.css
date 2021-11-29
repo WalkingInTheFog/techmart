@@ -802,9 +802,24 @@ img{
 
 .promo-slider{
     position: relative;
-    grid-row:2/4 ;
-    grid-column:1/3 ;
+    grid-row:2/4;
+    grid-column:1/3;
+    
+    width: 620px;
+    height: 266px;
+    overflow:hidden;
 }    
+    .promo-slider-list{
+        display: flex;
+        position: relative;
+        width: 1240px;    
+
+    }
+
+        .promo-slider-list--second-slide{
+            left: -620px;
+        }
+
     .promo-slider-list__item{
         
         display: flex;
@@ -819,7 +834,7 @@ img{
         max-height: 266px;
 
         background-color: var(--promo-slider-img-bg);
-        /* background-image: url('../../img/'); */
+        
         background-repeat: no-repeat;
         background-size: 620px 266px;
 
