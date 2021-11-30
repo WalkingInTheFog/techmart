@@ -1165,7 +1165,7 @@ img{
 
 .services {
     padding-top: 64px;
-    padding-bottom: 99px;
+    
     background-color: var(--light-blue);
 }
 
@@ -1258,8 +1258,11 @@ img{
 }
     
     .services-desc-list__item{
+        min-height: 286px;
+        padding-left: 80px;
         background-repeat: no-repeat;
-        background-position: right top;
+        background-position: right 20px;
+        background-size: 486px 261px;
 
     }
     
@@ -1282,6 +1285,8 @@ img{
 
     
         .services-desc__title {
+            margin: 0;
+            margin-bottom: 30px;
             width: 100%;
 
             
@@ -1291,6 +1296,7 @@ img{
         }
 
 .services-desc__text {
+    max-width: 300px;
     font-family: 'PT Sans', sans-serif;
     font-weight: normal;
     font-size: 13px;
