@@ -1165,6 +1165,7 @@ img{
 
 .services {
     padding-top: 64px;
+    padding-bottom: 99px;
     background-color: var(--light-blue);
 }
 
@@ -1197,32 +1198,61 @@ img{
 
 
 .services-list {
+    position: relative;
 }
-.services-list__item {
+
+    .services-list::before{
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 279px;
+        right: 0;
+        top:-49px;
+        background-image: url('../../img/services-shadow.png');
+        background-repeat: no-repeat;
+    
+    }
+
+    .services-list__item {
 }
+
 .services-list__link {
+    display: block;
+    padding-top: 13.5px;
+    padding-bottom: 17.5px;
+    padding-left: 22px;
+    margin-bottom: 1px;
     font-size: 21px;
     line-height: 30px;
     font-weight: bold;
     text-decoration: none;
     color: var(--white);
     background-color: var(--blue);
+    box-shadow: 0px 1px 0px var(--darker-blue), inset 0px 1px 0px var(--servises-shadow-light);
 }
 
 .services-list__link--active{
     color: var(--blue);
     background-color: var(--white);
+    
+    box-shadow: 0px 1px 0px var(--white);
+    
 }
 
     .services-list__link:hover,
     .services-list__link:focus{
         color: var(--white);
         background-color: var(--darker-blue);
+        box-shadow: 0px 1px 0px var(--darker-blue);
+        
     }
 
     .services-list__link:active{
         opacity: 0.7;
     }
+
+
+
 
 .services-desc-list {
 }
