@@ -243,7 +243,10 @@ img{
                 }
 
             .main-logo--footer{
+                padding: 20px 40px;
+                max-width: 220px;
                 font-size: 23px;
+                margin-bottom:22px;
             }
 
                 .main-logo__img{
@@ -1414,6 +1417,11 @@ img{
 .main-footer__contact {
     font-style: normal;
 }
+
+.main-footer__contact-address{
+    margin: 0;
+}
+
 .main-footer__contact-address,
 .main-footer__contact-phone {
     font-size: 18px;
@@ -1510,13 +1518,20 @@ img{
 }
 
 .main-footer__second-row-grid-layout{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    padding-top: 36px;
+    padding-bottom: 36px;
+    display: flex;
+
 }
 
 .copyright{
+    min-width: 226px;
     font-size: 16px;
     line-height: 18px;
+}
+
+.copyright p{
+    margin: 0;
 }
 
 
@@ -1524,6 +1539,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 162px;
 }
 
 .social-list__item:not(:last-child){
@@ -1556,14 +1572,18 @@ img{
 
     display: flex;
     align-items: center;
+    margin-left: 118px;
 }
 
     .main-footer__links p{
         margin: 0;
-        
         color: var(--white);
         font-size: 16px;
         line-height: 18px;
+    }
+
+    .main-footer__links p+p{
+        margin-left: 50px;
     }
 
     .main-footer__links a{
