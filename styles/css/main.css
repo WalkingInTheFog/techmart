@@ -34,7 +34,7 @@
     
 
    
-    --servises-shadow-light:#405069;
+    --services-shadow-light:#405069;
 
     --footer-text-gold:#FFD180;
     --footer-address-blue:#F3F7F9;
@@ -1229,7 +1229,7 @@ img{
     text-decoration: none;
     color: var(--white);
     background-color: var(--blue);
-    box-shadow: 0px 1px 0px var(--darker-blue), inset 0px 1px 0px var(--servises-shadow-light);
+    box-shadow: 0px 1px 0px var(--darker-blue), inset 0px 1px 0px var(--services-shadow-light);
 }
 
 .services-list__link--active{
@@ -1315,34 +1315,87 @@ img{
 }
 
 /******************************************about-us*************************************/
+.about-us{
+    margin-bottom: 70px;
+}
 
 .about-us__grid-layout{
 
     display: grid;
-    grid-template-columns: 1fr 300px; 
-    column-gap: 20px;
+    grid-template-columns: 460px 300px; 
+    column-gap: 180px;
 }
 
 .about-us__desc-col {
 }
-.section__title {
-}
+
+    .about-us__title{
+     
+        margin: 0;
+        margin-bottom: 24px;
+    }
 
 .about-us__text{
+    margin: 0;
     font-family: 'PT Sans', sans-serif;
+
+}
+
+.about-us__text:not(:first-of-type){
+    margin-top: 35px;
 }
 
 .about-us__list{
+    margin-bottom: 20px;
+    
     font-size: 18px;
     line-height: 24px;
     color: var(--black);
- 
 
 }
+
+    .about-us__list li{
+        position: relative;
+        padding-left: 37px;
+    }
+
+    .about-us__list li::before{
+        content:'';
+        position: absolute;
+        top:50%;
+        left: 0;
+        width: 25px;
+        height: 2px;
+        background-color: var(--red);
+    }
+
+    .about-us__btn{
+
+        display: inline-block;
+        padding: 10px 40px;
+
+    }
+
 
 .red-btn {
 }
 .about-us__map-col {
+}
+
+.about-us__map-col p{
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.about-us__map-img-link{
+    display: block;
+    margin-bottom: 25px;
+}
+
+.about-us__map-btn{
+    display: block;
+    padding: 10px 40px;
+    text-align: center;
 }
 
 /**************************main-footer*************************************/
