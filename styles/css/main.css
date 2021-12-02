@@ -1746,6 +1746,13 @@ img{
 }
 
     .firlters__title{
+        margin: 0;
+        margin-bottom: 15px;
+        padding-left: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+
         font-family: 'PT Sans',sans-serif;
         font-style: normal;
         font-weight: normal;
@@ -1756,8 +1763,25 @@ img{
         background-color: var(--filters-title-bg);
     }
 
+    .price-filter__range-controls {
+        width: 220px;
+        height: 80px;
+        background-color:var(--filters-title-bg);
+    }
+    .price-filter__bar {
+    }
+    .price-filter__scale {
+    }
+    .price-filter-toggle {
+    }
+    .price-filter-toggle__min {
+    }
+    .price-filter-toggle__max {
+    }
+
 
     .catalog-filters-form legend{
+        margin-bottom: 11px;
 
         font-family: 'PT Sans',sans-serif;
         font-style: normal;
