@@ -206,6 +206,10 @@ img{
     margin-bottom: 60px;
 }
 
+.inner-page .main-header{
+    margin-bottom: 20px;
+}
+
 .main-header__top-row {
     background-color:var(--darker-blue);
     color:white;
@@ -1655,6 +1659,7 @@ img{
 .breadcrumbs-list {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 
 }
     .breadcrumbs-list__item{
