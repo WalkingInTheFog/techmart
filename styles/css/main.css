@@ -1653,15 +1653,41 @@ img{
 /**************************************BREAD-CRUMBS**********************************************/
 
 .breadcrumbs-list {
+    display: flex;
+    align-items: center;
+
 }
-.breadcrumbs-list__item {
-}
-.breadcrumbs-list__link-icon {
-}
-.icon-home {
-}
-.visually-hidden {
-}
+    .breadcrumbs-list__item{
+        position: relative;
+        margin-right: 40px;
+    }
+
+    .breadcrumbs-list__item:not(:first-child)::before {
+
+        content: '';
+        position: absolute;
+        width: 8px;
+        height: 12px;
+        top:4px;
+        left: -23px;
+        background-image: url('../../img/icon-right-small.svg');
+        background-repeat: no-repeat;
+    }
+
+        .breadcrumbs-list__link-icon {
+            display: block;
+            width: 14px;
+            height: 12px;
+        }
+        
+        .icon-home {
+            background-image: url('../../img/icon-home.svg');
+            background-repeat: no-repeat;
+            
+            
+        }
+
+
 .breadcrumbs-list__link {
     font-family: "PT Sans",sans-serif;
     font-size: 13px;
