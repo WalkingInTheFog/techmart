@@ -494,6 +494,10 @@ img{
         margin-left: auto;
     }
 
+    .user-panel-guest.display-none{
+        display: none;
+    }
+
         .user-panel-guest__btn{
             padding: 12px 24px;
             text-decoration: none;
@@ -552,10 +556,10 @@ img{
 
     .user-panel-user__btn{
         display: flex;
-        align-items: baseline;
+        align-items: center;
         padding: 14px 10px 15px 13px;
         margin: 0;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         background-color:var(--white);
     }
 
@@ -585,6 +589,9 @@ img{
 
 
         .user-panel-user__logout{
+            display: block;
+            width: 20px;
+            height: 17px;
             margin-left:auto;
         }
 
