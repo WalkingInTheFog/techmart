@@ -1785,7 +1785,7 @@ img{
             .price-filter__scale {
                 position: absolute;
               
-                width: 152px;
+               
                 height: 2px;
                 background-color: var(--green);
             }
@@ -1802,17 +1802,23 @@ img{
 
         .price-filter-toggle__min {
             position: absolute;
-            left: 0;
+            
             top:-10px;
                 
         }
 
         .price-filter-toggle__max {
             position: absolute;
-            left: 152px;
+            
             top:-10px;
         }
 
+
+.price-filter__input-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
     .catalog-filters-form legend{
         margin-bottom: 11px;
@@ -1837,6 +1843,11 @@ img{
     }
 
     .catalog-filters-form__price-field{
+        width: 95px;
+        height: 38px;
+        padding: 10px 22px;
+        border: none;
+
         font-family: 'PT Sans',sans-serif;
         font-style: normal;
         font-weight: normal;
