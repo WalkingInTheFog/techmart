@@ -227,10 +227,10 @@
 
                 <div class="price-filter__bar">
 
-                  <div class="price-filter__scale" style=" width: 152px;"></div>
+                  <div class="price-filter__scale" style=" width: 70%;"></div>
 
-                  <div class="price-filter-toggle price-filter-toggle__min" style="left: 0"></div>
-                  <div class="price-filter-toggle price-filter-toggle__max" style="left: 152px;"></div>
+                  <div class="price-filter-toggle price-filter-toggle__min" tabindex="0" style="left: 0"></div>
+                  <div class="price-filter-toggle price-filter-toggle__max" tabindex="0" style="left: 70%;"></div>
 
                 </div>
 
@@ -327,19 +327,21 @@
 
                 <li>
 
-                  <input class="catalog-filters-list__input" type="radio" name="catalog-filters-form__power-supply"
-                    id="catalog-filters-form__power-supply-accumulators" value="accumulators" checked>
+                  <input class="catalog-filters-list__input visually-hidden" type="radio"
+                    name="catalog-filters-form__power-supply" id="catalog-filters-form__power-supply-accumulators"
+                    value="accumulators" checked>
 
-                  <label class="catalog-filters-list__label"
+                  <label class="catalog-filters-list__label power-label"
                     for="catalog-filters-form__power-supply-accumulators">Аккумуляторные</label>
 
                 </li>
 
                 <li>
-                  <input class="catalog-filters-list__input" type="radio" name="catalog-filters-form__electricity-grid"
-                    id="catalog-filters-form__power-supply-electricity-grid" value="electricity-grid">
+                  <input class="catalog-filters-list__input visually-hidden" type="radio"
+                    name="catalog-filters-form__power-supply" id="catalog-filters-form__power-supply-electricity-grid"
+                    value="electricity-grid">
 
-                  <label class="catalog-filters-list__label"
+                  <label class="catalog-filters-list__label power-label"
                     for="catalog-filters-form__power-supply-electricity-grid">Сетевые</label>
                 </li>
 

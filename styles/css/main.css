@@ -1798,6 +1798,7 @@ img{
         background-color: var(--toggle-bg);
         box-shadow: 0 2px 0 0 var(--toggle-shadow);
         box-sizing: content-box;
+        cursor: pointer;
     }
 
         .price-filter-toggle__min {
@@ -1897,6 +1898,32 @@ img{
             background-image: url('../../img/checkbox-on.svg'); 
             width:27px;
         }
+
+        .power-label::before{
+
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 25px;
+            height: 25px;
+            border: 4px solid var(--gray-active);
+            border-radius: 50%;
+        }
+
+        .catalog-filters-list__input+.power-label::before{
+            background-color: var(--white);
+            background-clip: content-box;
+            padding: 4px;
+        }
+
+
+        .catalog-filters-list__input:checked+.power-label::before{
+            background-color: var(--gray-active);
+            background-clip: content-box;
+            padding: 4px;
+        }
+
+        
 
 
     .catalog-filters-list__input:disabled+.catalog-filters-list__label{
