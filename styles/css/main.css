@@ -1977,6 +1977,7 @@ img{
         text-transform: uppercase;
         color: var(--black);
         background-color: var(--filters-title-bg);
+        margin-bottom: 28px;
     }
     
    .sorting-settings__title{
