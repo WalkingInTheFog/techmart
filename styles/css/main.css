@@ -36,7 +36,7 @@
     --promo-slider-img-bg:#796f69;
     
 
-   
+    --filter-btn-border:#E5E5E5;
     --services-shadow-light:#405069;
 
     --footer-text-gold:#FFD180;
@@ -1881,6 +1881,7 @@ img{
         line-height: 19px;
         text-transform: uppercase;
         color: var(--black);
+        cursor: pointer;
     }
 
         .manufacturer-label:before{
@@ -1931,6 +1932,12 @@ img{
     }
 
     .catalog-filters-form__btn{
+        display: block;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border:1px solid var(--filter-btn-border);
+
 
         font-family: 'PT Sans',sans-serif;
         font-style: normal;
@@ -1939,9 +1946,20 @@ img{
         line-height: 18px;
         text-align: center;
         text-transform: uppercase;
+        cursor: pointer;
         
         color: var(--black);
+        background-color: transparent;
 
+    }
+
+    .catalog-filters-form__btn:hover,
+    .catalog-filters-form__btn:focus{
+        border-color: var(--gray-active);
+    }
+
+    .catalog-filters-form__btn:active{
+        border-color: var(--red);
     }
 
     
