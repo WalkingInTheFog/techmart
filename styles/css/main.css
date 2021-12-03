@@ -2040,8 +2040,22 @@ img{
    
 /***************************PAGINATION******************************/
 
+.catalog-pagination-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .catalog-pagination-list li:not(:last-child){
+        margin-right: 10px;
+    }
+
 .catalog-pagination-list__link{
 
+    display: block;
+    padding: 10px 15px;
+    border: 1px solid var(--gray-active);
+    border-radius: 2px;
+    
     font-family: 'PT Sans',sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -2053,15 +2067,33 @@ img{
     text-decoration: none;
 }
 
+    .catalog-pagination-list__link:hover,
+    .catalog-pagination-list__link:active{
+        border-color: var(--gray-active);
+    }
+
+
+    .catalog-pagination-list__link:active{
+        border-color: var(--red);        
+    }
+
     .catalog-pagination-list__link--active{
         color: var(--white);
+        border-color: var(--red);
         background-color: var(--red);
     }
 
         .catalog-pagination-list__link--active:hover,
         .catalog-pagination-list__link--active:focus{
             background-color:var(--red-hover);
+            border-color: var(--red);
         }
+        
+        .catalog-pagination-list__link--active:active{
+            border-color: var(--red);
+        }
+
+
 /***********************about-perforator*********************************/
 
 .about-perforator{
