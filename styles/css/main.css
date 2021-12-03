@@ -1821,7 +1821,7 @@ img{
 }
 
     .catalog-filters-form legend{
-        margin-bottom: 11px;
+        margin-bottom: 15px;
 
         font-family: 'PT Sans',sans-serif;
         font-style: normal;
@@ -1859,7 +1859,20 @@ img{
         text-align: center;
     }
 
+    .catalog-filters-list li{
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 16px;
+    }
+
+    .catalog-filters-list li:last-child{
+        margin-bottom: 0;
+    }
+
+
     .catalog-filters-list__label{
+        display: flex;
+        align-items: center;
         font-family: 'PT Sans',sans-serif;
         font-style: normal;
         font-weight: normal;
@@ -1868,6 +1881,22 @@ img{
         text-transform: uppercase;
         color: var(--black);
     }
+
+        .manufacturer-label:before{
+            content:'';
+            position: absolute;
+            left: 0;
+            width: 23px;
+            height: 23px;
+            
+            background-image: url('../../img/checkbox-off.svg'); 
+            background-repeat: no-repeat;
+        }
+
+        .catalog-filters-list__input:checked+.manufacturer-label:before{
+            background-image: url('../../img/checkbox-on.svg'); 
+            width:27px;
+        }
 
 
     .catalog-filters-list__input:disabled+.catalog-filters-list__label{
@@ -1887,6 +1916,8 @@ img{
         color: var(--black);
 
     }
+
+    
 
     .sorting-settings{
         
