@@ -22,6 +22,9 @@
     --gray-input: #B5B5B5;
     --light-blue:#F1F5F7;
     
+    --toggle-shadow:rgba(171, 171, 171, 0.3);
+    --toggle-bg:#ABABAB;
+    
     --promo-yellow:#FFBF47;
     --promo-blue:#3BBCE3;
     --promo-violet: #DC91D8;
@@ -1764,20 +1767,51 @@ img{
     }
 
     .price-filter__range-controls {
+        position: relative;
         width: 220px;
         height: 80px;
+        margin-bottom: 10px;
         background-color:var(--filters-title-bg);
     }
-    .price-filter__bar {
-    }
-    .price-filter__scale {
-    }
+        .price-filter__bar {
+            position: absolute;
+            left: 20px;
+            top:39px;
+            width: 180px;
+            height: 2px;
+            background-color: var(--gray-active);
+        }
+
+            .price-filter__scale {
+                position: absolute;
+              
+                width: 152px;
+                height: 2px;
+                background-color: var(--green);
+            }
+
     .price-filter-toggle {
+        width: 4px;
+        height: 4px;
+        border:8px solid var(--white) ;
+        border-radius: 50%;
+        background-color: var(--toggle-bg);
+        box-shadow: 0 2px 0 0 var(--toggle-shadow);
+        box-sizing: content-box;
     }
-    .price-filter-toggle__min {
-    }
-    .price-filter-toggle__max {
-    }
+
+        .price-filter-toggle__min {
+            position: absolute;
+            left: 0;
+            top:-10px;
+                
+        }
+
+        .price-filter-toggle__max {
+            position: absolute;
+            left: 152px;
+            top:-10px;
+        }
 
 
     .catalog-filters-form legend{
