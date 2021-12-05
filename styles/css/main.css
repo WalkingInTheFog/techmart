@@ -2183,6 +2183,15 @@ img{
     font-family: 'PT Sans',sans-serif;
 }
 
+
+/*****************************************************/
+
+.index-link{
+    display: block;
+    margin-bottom: 60px;
+}
+
+
 /****************************************************************/
 
 .sucсess-pop-up__text{

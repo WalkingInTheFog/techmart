@@ -43,7 +43,11 @@
 
       <div class="container main-header__top-row-grid-layout">
 
-        <a href="index.html" class="main-logo">Техномарт</a>
+        <a class="main-logo" href="index.html" aria-label="логотип интернет магазина 'Техномарт'">
+
+          <img class="main-logo__img" src="img/logo-technomart.svg" alt="Техномарт" width="108" height="18">
+
+        </a>
 
         <form class="header-search-form" action="https://echo.htmlacademy.ru/" method="GET" name="header-search-form">
 
@@ -92,11 +96,12 @@
 
       <div class="user-panel">
 
-        <div class="user-panel__guest display-none">
+        <div class="user-panel-guest display-none">
 
-          <a class="user-panel__btn user-panel__guest-btn user-panel__guest-btn--enter" href="blank.html">
+          <a class="user-panel-guest__btn user-panel-guest__btn--low-left-padding" href="blank.html">
 
-            <svg class="user-panel__icon-login" width="21" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="user-panel-guest__icon-login" width="21" height="17" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
               <path d="M14.875 8.5 6 0v6H0v5h6v6l8.875-8.5Z" />
               <path
                 d="M16.986 15.01h-5.027V17h5.027c2.178 0 3.004-1.81 3.029-3.026V3.028C19.99 1.811 19.164 0 16.986 0h-5.027v1.99h5.027c.839 0 .992.681 1.01 1.057v10.904c-.017.376-.171 1.059-1.01 1.059Z" />
@@ -106,29 +111,29 @@
 
           </a>
 
-          <a class="user-panel__btn user-panel__guest-btn user-panel__guest-btn--registering"
-            href="blank.html">Регистрация</a>
+          <a class="user-panel-guest__btn" href="blank.html">Регистрация</a>
 
         </div>
 
-        <div class="user-panel__user">
+        <div class="user-panel-user">
 
-          <p class="user-panel__btn user-panel__user--btn">
+          <p class="user-panel-user__btn">
 
-            <a href="blank.html" class="user-panel__btn-inner-link user-panel__btn-inner-link--profile">
+            <a href="blank.html" class="user-panel-user__profile-link">
 
-              <svg class="user-panel__icon-user" width="20" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg class="user-panel-user__icon-user" width="20" height="18" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M17.881 14.166c-2.144-.735-4.256-1.666-5.207-2.39-.657-.501-.77-1.618-.517-2.415 1.118-.903 1.864-2.477 1.864-4.278C14.021 2.276 12.221 0 10 0S5.979 2.276 5.979 5.083c0 1.801.746 3.374 1.863 4.277.253.798.141 1.915-.517 2.416-.95.724-3.063 1.654-5.207 2.39C-.026 14.902 0 18 0 18h20s.025-3.099-2.119-3.834Z" />
               </svg>
 
-              <span class="user-panel__user-name">Владислав Иванников</span>
+              <span class="user-panel-user__name">Владислав Иванников</span>
 
             </a>
 
-            <a href="blank.html" class="user-panel__btn-inner-link user-panel__btn-inner-link--logout">
+            <a href="blank.html" class="user-panel-user__logout">
 
-              <svg class="user-panel__icon-logout" width="20" height="17" fill="none"
+              <svg class="user-panel-user__icon-logout" width="20" height="17" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 8.5 11.125 0v6h-6v5h6v6L20 8.5Z" />
                 <path
@@ -141,11 +146,11 @@
 
           </p>
 
-          <p class="user-panel__user-link-wrapper">
+          <p class="user-panel-user__link-wrapper">
 
-            <a class="user-panel__user-link" href="blank.html">Мои заказы </a>
+            <a class="user-panel-user__link" href="blank.html">Мои заказы </a>
 
-            <a class="user-panel__user-link" href="blank.html">Личный кабинет</a>
+            <a class="user-panel-user__link" href="blank.html">Личный кабинет</a>
 
           </p>
 
@@ -176,7 +181,7 @@
 
     <h1>Страница находится в разработке</h1>
 
-    <a href="index.html">Главная страница сайта</a>
+    <a class="index-link" href="index.html">Главная страница сайта</a>
 
   </main>
 
@@ -186,7 +191,11 @@
 
       <div class="footer-top__logo-contact-wrapper">
 
-        <a href="index.html" class="main-logo main-logo--footer">Техномарт</a>
+        <a class="main-logo main-logo--footer" aria-label="логотип Техномарт">
+
+          <img src="img/footer-logo-technomart.svg" alt="Техномарт" class="main-logo__img" width="138" height="23">
+
+        </a>
 
         <address class="main-footer__contact">
 
