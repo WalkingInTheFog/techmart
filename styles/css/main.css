@@ -2052,6 +2052,44 @@ img{
                         opacity: 0.5;
                     }    
 
+           .sorting-settings-list__link--icon{
+                display: block;
+                padding: 0;
+                width: 12px;
+                border: none;
+                
+           }         
+
+           .sorting-settings-list__link--icon svg{
+               fill:var(--gray-active)
+           }
+
+           
+           .sorting-settings-list__link--icon:hover,
+           .sorting-settings-list__link--icon:focus{
+               border: none;
+           }
+
+                .sorting-settings-list__link--icon:hover svg,
+                .sorting-settings-list__link--icon:focus svg{
+                    fill: var(--black);
+                }
+
+                .sorting-settings-list__link--icon:active svg{
+                    opacity: 0.5;
+                }
+
+            .sorting-settings-list__link--active svg{
+                fill: var(--red);
+            }
+
+            .icon-down-dir{
+
+              transform: rotate(180deg);
+            }
+
+                  
+
 /***************************PAGINATION******************************/
 
 .catalog-pagination-list{
