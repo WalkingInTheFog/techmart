@@ -1142,7 +1142,9 @@ img{
         background-color: var(--red);
     }
 
-
+.product-cart__links+.product-cart__price{
+    margin-top: 31px;
+}
 
 /********************************PRODUCERS*********************************************/ 
 
