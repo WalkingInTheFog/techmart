@@ -2164,9 +2164,19 @@ img{
 /***********************about-perforator*********************************/
 
 .about-perforator{
-
+    
     background-color: var(--light-blue);
 }
+
+    .about-perforator .container{
+        padding: 64px 10px; 
+    }
+
+.about-perforator .title{
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
 
 .about-perforator p{
 
