@@ -1622,46 +1622,7 @@ img{
         }
 
 
-    /*******************************POP-Up******************************/
-    
-.feedback-pop-up{
-        position: absolute;
-        left: 50%;
-        bottom:350px;
-        transform: translateX(-50%);
-        background-color:var(--white);        
-    }
 
-
-.feedback-form{
-
-    display: grid;
-    grid-template-columns: 220px 220px;
-    grid-template-rows: repeat(3, min-content);
-    column-gap: 20px;
-}
-
-
-.feedback-form__text-area,
-.feedback-form__btn{
-    grid-column:1/3;
-    
-}
-
-.feedback-form__label{
-    font-size: 18px;
-    line-height: 24px;
-    
-    color:var(--black);
-}
-
-.feedback-form__field-name::placeholder,
-.feedback-form__field-mail::placeholder,
-.feedback-form__field-textarea::placeholder{
-    font-size: 13px;
-    line-height: 24px;
-    color: var(--gray);
-}
     
 /**************************************BREAD-CRUMBS**********************************************/
 
@@ -2192,7 +2153,79 @@ img{
 }
 
 
-/****************************************************************/
+    /*******************************POP-Up******************************/
+    
+    .feedback-pop-up{
+        position: relative;
+        width: 620px;
+        margin: 0 auto;
+        border-top: 7px solid var(--red);
+
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 35px;
+        box-shadow: 0px 4px 20px var(--box-shadow);
+        
+        /* position: absolute;
+        left: 50%;
+        bottom:350px;
+        transform: translateX(-50%); */
+        background-color:var(--white);        
+    }
+
+    .feedback-pop-up__close-btn{
+        position: absolute;
+        top:14px;
+        right: 11px;
+        width: 21px;
+        height: 21px;
+        border: none;
+        background-color:transparent;
+        background-image:url('../../img/icon-close.svg');
+        background-repeat: no-repeat;
+        background-size: 21px 21px;
+        cursor: pointer;
+    }
+
+    .feedback-pop-up__close-btn:hover,
+    .feedback-pop-up__close-btn:focus{
+        opacity: 0.7;
+    }
+
+    .feedback-pop-up__close-btn:active{
+        opacity: 0.5;}
+    
+
+
+.feedback-form{
+
+    display: grid;
+    grid-template-columns: 220px 220px;
+    grid-template-rows: repeat(3, min-content);
+    column-gap: 20px;
+}
+
+
+.feedback-form__text-area,
+.feedback-form__btn{
+    grid-column:1/3;
+    
+}
+
+.feedback-form__label{
+    font-size: 18px;
+    line-height: 24px;
+    
+    color:var(--black);
+}
+
+.feedback-form__field-name::placeholder,
+.feedback-form__field-mail::placeholder,
+.feedback-form__field-textarea::placeholder{
+    font-size: 13px;
+    line-height: 24px;
+    color: var(--gray);
+}
 
 .sucсess-pop-up__text{
   
