@@ -761,22 +761,22 @@
 
     </button>
 
-    <form action="https://echo.htmlacademy.ru/" name="feedback-form" class="feedback-form">
+    <form class="feedback-form" action="https://echo.htmlacademy.ru/" name="feedback-form" method="post">
 
-      <p>
+      <p class="feedback-form__item">
 
         <label class="feedback-form__label" for="feedback-form__name">Ваше имя:</label>
 
-        <input class="feedback-form__field-name" type="text" placeholder="Имя Фамилия" id="feedback-form__name"
+        <input class="feedback-form__field" type="text" placeholder="Имя Фамилия" id="feedback-form__name"
           name="feedback-form__name">
 
       </p>
 
-      <p>
+      <p class="feedback-form__item">
 
         <label class="feedback-form__label" for="feedback-form__mail">Ваш e-mail:</label>
 
-        <input class="feedback-form__field-mail" type="email" name="feedback-form__mail" id="feedback-form__mail"
+        <input class="feedback-form__field" type="email" name="feedback-form__mail" id="feedback-form__mail"
           placeholder="email@example.com">
 
       </p>
@@ -789,7 +789,11 @@
           placeholder="В свободной форме"></textarea>
       </p>
 
-      <button class="feedback-form__btn btn btn--red" type="submit">Отправить</button>
+      <div class="feedback-form__btn-wrapper">
+
+        <button class="feedback-form__btn btn--red" type="submit">Отправить</button>
+
+      </div>
 
     </form>
 
