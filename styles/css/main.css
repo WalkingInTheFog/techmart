@@ -1417,6 +1417,10 @@ img{
     text-align: center;
 }
 
+
+
+
+
 /**************************main-footer*************************************/
 .main-footer{
     color: var(--white);
@@ -2092,11 +2096,20 @@ img{
 
                   
 
+
+/******************CATALOG******************/
+
+.catalog-list{
+    margin-bottom: 48px;
+}
+
+
 /***************************PAGINATION******************************/
 
 .catalog-pagination-list{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 59px;
 }
 
     .catalog-pagination-list li:not(:last-child){
