@@ -2303,8 +2303,38 @@ img{
 }
 
 /**************************************************************/
+
+.sucсess-pop-up{
+    position: relative;
+    width: 620px;
+    margin: 0 auto;
+    border-top: 7px solid var(--red);
+    box-shadow: 0px 4px 20px var(--box-shadow);
+
+}
+
+.icon-success::before{
+    content: '';
+    position: static;
+    display: block;
+    width: 66px;
+    height: 66px;
+    margin-right: 32px;
+    background-image: url('../../img/icon-success.svg');
+    background-repeat: no-repeat;
+    background-size: 66px 66px;
+    background-position: left top;
+}
+
 .sucсess-pop-up__text{
-  
+    display: flex;
+    align-items: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    
+    min-height: 66px;
+    margin-left: 81px;
+
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -2313,7 +2343,12 @@ img{
     text-align: center;
 
 }
-           
+.sucсess-pop-up__button-wrapper{
+    background-color: var(--pop-up-footer-bg);
+}
+
+
+
 .sucсess-pop-up__btn{
     
     font-size: 14px;
