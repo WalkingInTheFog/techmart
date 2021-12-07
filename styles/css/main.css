@@ -2344,21 +2344,57 @@ img{
 
 }
 .sucсess-pop-up__button-wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 37px;
+    padding-bottom: 37px;
     background-color: var(--pop-up-footer-bg);
 }
 
 
 
 .sucсess-pop-up__btn{
-    
+    display: block;
+    width: 192px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 14px;
     line-height: 18px;
- 
+    text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-
-    color:var(--black);
+    border: none;
+    
 }
 
+    .sucсess-pop-up__btn--red{
+        margin-right: 10px;
+        background-color: var(--red);
+        color: var(--white);
+    }
+
+        .sucсess-pop-up__btn--red:hover,
+        .sucсess-pop-up__btn--red:focus{
+            background-color: var(--red-hover);
+        }
+
+        .sucсess-pop-up__btn--red:active{
+            background-color: var(--red-active);
+        }
+
+
+    .sucсess-pop-up__btn--white{
+        background-color: var(--white);
+        color: var(--black);
+        cursor: pointer;
+    }
+        .sucсess-pop-up__btn--white:hover,
+        .sucсess-pop-up__btn--white:focus{
+            color: var(--red);
+        }
+
+        .sucсess-pop-up__btn--white:active{
+            color: var(--gray-active);
+        }
 
 
