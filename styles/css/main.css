@@ -227,7 +227,7 @@ img{
     .main-header__second-row-grid-layout{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        margin-bottom: 40px;
+        margin-bottom: 42px;
     }
 
         .main-logo {
@@ -680,7 +680,7 @@ img{
     
 }
     .main-nav-list__item {
-        flex-grow: 1;
+        /* flex-grow: 1; */
     }
 
         .main-nav-list__link {
@@ -688,15 +688,26 @@ img{
             display: block;
             width: 100%;
             text-align: center;
-            padding-top: 22px;
-            padding-bottom: 18px;
-            padding-left: 30px;
-            padding-right: 30px;
+            padding-top: 15px;
+            padding-bottom: 16px;
+            padding-left: 28px;
+            padding-right: 28px;
             font-size: 18px;
             line-height: 24px;
             color: var(--white);
             text-decoration: none;
         }
+
+
+        .main-nav-list__item:first-child .main-nav-list__link{
+            padding-left: 53px;
+        }  
+
+        
+        .main-nav-list__item:last-child .main-nav-list__link{
+            padding-right: 53px;
+        }  
+
 
         .main-nav-list__link::after{
             content: "";
