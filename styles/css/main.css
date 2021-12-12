@@ -312,6 +312,7 @@ img{
                 }
                     .header-search-form__field::placeholder{
                         color: var(--white);
+                        opacity: 1;
                     }
 
                     .header-search-form__field:focus{
