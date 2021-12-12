@@ -342,7 +342,7 @@ img{
         .bookmarks,
         .basket{
             position: relative;
-            padding-left: 35px;
+            padding-left: 20px;
 
         }
 
@@ -354,7 +354,7 @@ img{
             .basket::before{
                 content:"";
                 position: absolute;
-                left: 20px;
+                left: 22px;
                 top:12px;
             }
 
