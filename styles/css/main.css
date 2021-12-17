@@ -331,6 +331,7 @@ img{
         .bookmarks,
         .basket,
         .checkout {
+            position: relative;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -340,11 +341,14 @@ img{
             color: var(--white);
         }
 
-        .bookmarks,
-        .basket{
-            position: relative;
+        .bookmarks{
+        
             padding-left: 20px;
 
+        }
+
+        .basket{
+            padding-left: 24px;
         }
 
         .basket{
@@ -458,7 +462,7 @@ img{
             align-items: center;
             
             width: 270px;
-            padding:5px 36px;
+            padding:5px 36px 6px 37px;
             border:3px solid var(--white);
             position: relative;
             font-style: normal;
