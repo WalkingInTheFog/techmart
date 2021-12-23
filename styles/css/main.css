@@ -926,7 +926,7 @@ img{
             
             width: 100%;
             max-width: 620px;
-            padding: 20px 24px;
+            padding: 22px 24px 18px 24px;
             background-color: var(--promo-slider-title-bg);
 
         }
