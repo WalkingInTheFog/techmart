@@ -975,14 +975,14 @@ img{
                 .promo-slider__controls-button--right{
                     transform: translateY(-50%) rotate(180deg);
                     right: 20px;
-                    top:50%;
+                    top:140px;
 
                 }
 
                 .promo-slider__controls-button--left{
                     transform: translateY(-50%);
-                    left: 20px;
-                    top:50%;
+                    left: 25px;
+                    top:140px;
                 }
 
             .icon-arrow{
