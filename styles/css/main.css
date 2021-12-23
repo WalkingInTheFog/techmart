@@ -994,7 +994,7 @@ img{
             .promo-slider__toggles{
 
                 position: absolute;
-                bottom: 36px;
+                bottom: 27px;
                 left: 50%;
                 transform: translateX(-50%);
                 margin: 0;
@@ -1002,7 +1002,8 @@ img{
             }
 
                 .promo-slider__toggles-radio{
-                    background-color:red;
+                    margin-left: 3px;
+                    margin-right: 3px;
                 }
 
   /* ***************************Popular-goods************************************* */
