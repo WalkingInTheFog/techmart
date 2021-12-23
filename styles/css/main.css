@@ -159,10 +159,11 @@ img{
         justify-content: flex-start;
         background-color: var(--light-beige);
         margin-bottom: 20px;
+        
     
     }
         .section-header-wrapper h2{
-            margin: 30px 28px;
+            margin: 25px 28px 28px 28px;
             color: var(--blue);
             
         }
@@ -757,7 +758,7 @@ img{
 /****************************************************PROMO-Section*************************************/
 
 .promo{
-    margin-bottom: 60px;
+    margin-bottom: 59px;
 }
 
 .promo__grid-layout{
