@@ -228,7 +228,7 @@ img{
     .main-header__second-row-grid-layout{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        margin-bottom: 42px;
+        margin-bottom: 39px;
     }
 
         .main-logo {
