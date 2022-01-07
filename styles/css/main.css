@@ -1441,21 +1441,23 @@ img{
     .about-us__title{
      
         margin: 0;
-        margin-bottom: 24px;
+        margin-bottom: 20px;
     }
 
 .about-us__text{
     margin: 0;
     font-family: 'PT Sans', sans-serif;
+    line-height: 24px;
 
 }
 
 .about-us__text:not(:first-of-type){
-    margin-top: 35px;
+    margin-top: 25px;
+    margin-bottom: 5px;
 }
 
 .about-us__list{
-    margin-bottom: 20px;
+    margin-bottom: 21px;
     
     font-size: 18px;
     line-height: 24px;
@@ -1466,6 +1468,7 @@ img{
     .about-us__list li{
         position: relative;
         padding-left: 37px;
+        margin-bottom: 11px;
     }
 
     .about-us__list li::before{
@@ -1481,7 +1484,11 @@ img{
     .about-us__btn{
 
         display: inline-block;
-        padding: 10px 40px;
+        
+        padding-top: 11px;
+        padding-bottom: 9px;
+        padding-left: 40px;
+        padding-right: 40px;
 
     }
 
@@ -1493,17 +1500,20 @@ img{
 
 .about-us__map-col p{
     margin: 0;
-    margin-bottom: 32px;
+    margin-bottom: 33px;
 }
 
 .about-us__map-img-link{
     display: block;
-    margin-bottom: 25px;
+    margin-bottom: 26px;
 }
 
 .about-us__map-btn{
     display: block;
-    padding: 10px 40px;
+    padding-top: 11px;
+        padding-bottom: 9px;
+        padding-left: 40px;
+        padding-right: 40px;
     text-align: center;
 }
 
