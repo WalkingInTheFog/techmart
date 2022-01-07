@@ -158,12 +158,12 @@ img{
         align-items: center;
         justify-content: flex-start;
         background-color: var(--light-beige);
-        margin-bottom: 20px;
+        margin-bottom: 19px;
         
     
     }
         .section-header-wrapper h2{
-            margin: 25px 28px 28px 28px;
+            margin: 27px 28px 28px 28px;
             color: var(--blue);
             
         }
@@ -174,6 +174,7 @@ img{
             padding: 10px 24px;
             margin-left: auto;
             margin-right: 14px;
+            margin-bottom: 3px;
         }
 
      .title{
@@ -208,7 +209,7 @@ img{
 
 .main-header{
     background-color:var(--light-blue);
-    margin-bottom: 60px;
+    margin-bottom: 59px;
 }
 
 .inner-page .main-header{
@@ -712,8 +713,8 @@ img{
             display: block;
             width: 100%;
             text-align: center;
-            padding-top: 15px;
-            padding-bottom: 16px;
+            padding-top: 16px;
+            padding-bottom: 15px;
             padding-left: 28px;
             padding-right: 28px;
             font-size: 18px;
@@ -927,7 +928,7 @@ img{
             
             width: 100%;
             max-width: 620px;
-            padding: 22px 24px 18px 24px;
+            padding: 23px 24px 18px 24px;
             background-color: var(--promo-slider-title-bg);
 
         }
