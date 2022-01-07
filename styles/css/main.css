@@ -263,7 +263,7 @@ img{
                 padding: 20px 40px;
                 max-width: 220px;
                 font-size: 23px;
-                margin-bottom:22px;
+                margin-bottom:27px;
             }
 
                 .main-logo__img{
@@ -1532,6 +1532,7 @@ img{
     display: grid;
     grid-template-columns: 350px 1fr;
     column-gap: 20px;
+    padding-bottom: 30px;
 }
 
 .main-footer__contact {
@@ -1544,6 +1545,7 @@ img{
 
 .main-footer__contact-address,
 .main-footer__contact-phone {
+    padding-left: 3px;
     font-size: 18px;
     line-height: 24px;
     color: var(--footer-address-blue);
@@ -1557,7 +1559,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-top: 40px;
+    padding-top: 38px;
     padding-bottom: 20px;
    
 }
@@ -1566,8 +1568,8 @@ img{
         width: 555px;
         display: flex;
         flex-wrap: wrap;
-        
-        margin-bottom: 20px;
+        justify-content: flex-end;
+        margin-bottom: 13px;
        
     }
         
@@ -1577,14 +1579,14 @@ img{
         width: 530px;
         display: flex;
         flex-wrap: wrap;
-        
+        justify-content: flex-end;
         
     }
 
     .footer-nav-list__item,
     .footer-catalog-list__item{ 
-        margin-left:30px;
-        margin-right:30px;
+        margin-left:29px;
+        margin-right:29px;
         margin-bottom: 20px;
     }
 
@@ -1604,6 +1606,7 @@ img{
 
         .footer-nav-list__link,
         .footer-catalog-list__link{
+            
             font-size: 18px;
             line-height: 24px;
             text-decoration: none;
@@ -1693,7 +1696,8 @@ img{
     display: flex;
     align-items: center;
     margin-left: 118px;
-}
+    margin-top: -3px;
+}   
 
     .main-footer__links p{
         margin: 0;
