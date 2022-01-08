@@ -2084,7 +2084,6 @@ img{
         
         display: flex;
         
-
         font-family: 'PT Sans',sans-serif;
         font-style: normal;
         font-weight: normal;
@@ -2094,14 +2093,18 @@ img{
         color: var(--black);
         background-color: var(--filters-title-bg);
         margin-bottom: 28px;
+        border-radius: 3px;
     }
     
    .sorting-settings__title{
-       margin-right: auto;
-       padding: 10px;
-       padding-left: 20px;
        margin: 0;
        margin-right: auto;
+       
+       padding-left: 20px;
+       padding-right: 10px;
+       padding-top: 9px;
+       padding-bottom: 11px;
+       
    } 
 
  .sorting-settings-list{
@@ -2122,7 +2125,7 @@ img{
         }
 
         .sorting-settings-list__item--soft-function{
-            margin-right: 45px;
+            margin-right: 48px;
         }
 
         .sorting-settings-list__item--to-less{
