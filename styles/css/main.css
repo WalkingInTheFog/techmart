@@ -2288,8 +2288,8 @@ img{
     .about-perforator .container{
        
         padding-top: 62px;
-        padding-bottom: 53px;
-        padding-left: 10px;
+        padding-bottom: 55px;
+        padding-left: 15px;
         padding-right: 10px;
     }
 
@@ -2303,6 +2303,7 @@ img{
 .about-perforator p{
 
     font-family: 'PT Sans',sans-serif;
+    line-height: 25px;
 }
 
 
