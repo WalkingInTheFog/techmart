@@ -2286,12 +2286,17 @@ img{
 }
 
     .about-perforator .container{
-        padding: 64px 10px; 
+       
+        padding-top: 62px;
+        padding-bottom: 53px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
 .about-perforator .title{
     margin-top: 0;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    
 }
 
 
