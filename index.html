@@ -619,6 +619,65 @@
 
       </div>
 
+      <div class="feedback-pop-up ">
+
+        <button class="pop-up__close-btn" type="button" aria-label="закрыть окно" tabindex="0">
+
+        </button>
+
+        <form class="feedback-form" action="https://echo.htmlacademy.ru/" name="feedback-form" method="post">
+
+          <p class="feedback-form__item feedback-form__item--name">
+
+            <label class="feedback-form__label" for="feedback-form__name">Ваше имя:</label>
+
+            <input class="feedback-form__field" type="text" placeholder="Имя Фамилия" id="feedback-form__name"
+              name="feedback-form__name">
+
+          </p>
+
+          <p class="feedback-form__item feedback-form__item--mail">
+
+            <label class="feedback-form__label" for="feedback-form__mail">Ваш e-mail:</label>
+
+            <input class="feedback-form__field" type="email" name="feedback-form__mail" id="feedback-form__mail"
+              placeholder="email@example.com">
+
+          </p>
+
+          <p class="feedback-form__text-area">
+
+            <label class="feedback-form__label" for="feedback-form__msg">Текст письма:</label>
+
+            <textarea class="feedback-form__textarea" name="feedback-form__msg" id="feedback-form__msg" cols="35"
+              rows="5" placeholder="В свободной форме"></textarea>
+          </p>
+
+          <div class="feedback-form__btn-wrapper">
+
+            <button class="feedback-form__btn btn--red" type="submit">Отправить</button>
+
+          </div>
+
+        </form>
+
+      </div>
+
+      <div class="map-pop-up ">
+
+        <button class="pop-up__close-btn" type="button" aria-label="закрыть окно" tabindex="0">
+
+        </button>
+
+        <a href="blank.html">
+
+          <img class="map-pop-up__img" src="img/map.png" alt="карта проезда до офиса техномарт" width="943"
+            height="449">
+
+        </a>
+
+      </div>
+
     </section>
 
   </main>
@@ -759,65 +818,9 @@
 
   </footer>
 
-  <div class="feedback-pop-up display-none">
 
-    <button class="pop-up__close-btn" type="button" aria-label="закрыть окно" tabindex="0">
 
-    </button>
-
-    <form class="feedback-form" action="https://echo.htmlacademy.ru/" name="feedback-form" method="post">
-
-      <p class="feedback-form__item feedback-form__item--name">
-
-        <label class="feedback-form__label" for="feedback-form__name">Ваше имя:</label>
-
-        <input class="feedback-form__field" type="text" placeholder="Имя Фамилия" id="feedback-form__name"
-          name="feedback-form__name">
-
-      </p>
-
-      <p class="feedback-form__item feedback-form__item--mail">
-
-        <label class="feedback-form__label" for="feedback-form__mail">Ваш e-mail:</label>
-
-        <input class="feedback-form__field" type="email" name="feedback-form__mail" id="feedback-form__mail"
-          placeholder="email@example.com">
-
-      </p>
-
-      <p class="feedback-form__text-area">
-
-        <label class="feedback-form__label" for="feedback-form__msg">Текст письма:</label>
-
-        <textarea class="feedback-form__textarea" name="feedback-form__msg" id="feedback-form__msg" cols="35" rows="5"
-          placeholder="В свободной форме"></textarea>
-      </p>
-
-      <div class="feedback-form__btn-wrapper">
-
-        <button class="feedback-form__btn btn--red" type="submit">Отправить</button>
-
-      </div>
-
-    </form>
-
-  </div>
-
-  <div class="map-pop-up display-none">
-
-    <button class="pop-up__close-btn" type="button" aria-label="закрыть окно" tabindex="0">
-
-    </button>
-
-    <a href="blank.html">
-
-      <img class="map-pop-up__img" src="img/map.png" alt="карта проезда до офиса техномарт" width="943" height="449">
-
-    </a>
-
-  </div>
-
-  <div class="sucсess-pop-up display-none">
+  <div class="sucсess-pop-up">
 
     <button class="pop-up__close-btn" type="button" aria-label="закрыть окно" tabindex="0">
     </button>
