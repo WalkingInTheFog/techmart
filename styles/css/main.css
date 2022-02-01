@@ -1438,7 +1438,7 @@ img{
 .about-us{
     position: relative;
     margin-bottom: 70px;
-    padding-top: 30px;
+    padding-top: 67px;
 }
 
 .about-us__grid-layout{
@@ -2446,7 +2446,11 @@ img{
 /*************************************************************/
 
 .map-pop-up{
-    position: relative;
+    position: absolute;
+    left: 50%;
+    top:14px;
+    transform: translateX(-50%);
+    
     
     width: 943px;
     height: 449px;
