@@ -1425,8 +1425,6 @@ img{
         margin-bottom: 19px;
     }
 
-   
-
 
 .services-desc__btn {
     display: inline-block;
@@ -2348,6 +2346,7 @@ img{
         background-repeat: no-repeat;
         background-size: 21px 21px;
         cursor: pointer;
+        z-index: 9999;
     }
 
     .pop-up__close-btn:hover,
@@ -2457,6 +2456,7 @@ img{
     margin: 0 auto;
     
     box-shadow: 0px 4px 20px var(--box-shadow);
+    border-top: 7px solid var(--red);
     box-sizing: border-box;
     overflow:hidden;
 }
