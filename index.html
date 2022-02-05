@@ -619,7 +619,7 @@
 
       </div>
 
-      <div class="feedback-pop-up ">
+      <div class="feedback-pop-up display-none">
 
         <button class="pop-up__close-btn" type="button" aria-label="закрыть окно" tabindex="0">
 
@@ -663,7 +663,7 @@
 
       </div>
 
-      <div class="map-pop-up ">
+      <div class="map-pop-up display-none">
 
         <button class="pop-up__close-btn" type="button" aria-label="закрыть окно" tabindex="0">
 
@@ -671,8 +671,17 @@
 
         <a href="blank.html">
 
-          <img class="map-pop-up__img" src="img/map.png" alt="карта проезда до офиса техномарт" width="943"
-            height="449">
+          <div class="map-pop-up__img" style="position:relative;overflow:hidden;"><a
+              href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps"
+              style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a
+              href="https://yandex.ru/maps/2/saint-petersburg/house/naberezhnaya_reki_karpovki_5p/Z0kYdQZnSkAOQFtjfXV3eX9hZg==/?ll=30.317359%2C59.968322&utm_medium=mapframe&utm_source=maps&z=16.69"
+              style="color:#eee;font-size:12px;position:absolute;top:14px;">Набережная реки Карповки, 5П —
+              Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCU5mQa9XC" width="943" height="449"
+              frameborder="0" allowfullscreen="true" style="position:relative;"
+              title="офис магазина 'Техномарт - 'г. Санкт-Петербург, наб. Реки Карповки, 5 лит П"></iframe></div>
+
+          <!-- <img class="map-pop-up__img" src="img/map.png"
+            alt="офис магазина 'Техномарт - 'г. Санкт-Петербург, наб. Реки Карповки, 5 лит П" width="943" height="449"> -->
 
         </a>
 
@@ -818,9 +827,7 @@
 
   </footer>
 
-
-
-  <div class="sucсess-pop-up">
+  <div class="sucсess-pop-up display-none">
 
     <button class="pop-up__close-btn" type="button" aria-label="закрыть окно" tabindex="0">
     </button>
