@@ -1516,6 +1516,12 @@ img{
     margin-bottom: 26px;
 }
 
+.about-us__map-img-link img{
+    max-height: 100%;
+    width: 300px;
+    height: 158px;
+}
+
 .about-us__map-btn{
     display: block;
     padding-top: 11px;
