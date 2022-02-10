@@ -1077,7 +1077,7 @@ img{
     }
 
     .product-cart__img {
-        
+        height: 100%;
     }
 
     .product-cart__links {
