@@ -122,11 +122,12 @@
 }
 
 img{
-    display: block;
+    object-fit: contain;
     max-width: 100%;
     height: auto;
     border: 0;
     outline: 0;
+    
 }
 
 .display-none{
