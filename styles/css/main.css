@@ -299,7 +299,8 @@ img{
             .header-search-form__icon{
                 position: absolute;
                 left: 17px;
-                top:12px;
+                top:50%;
+                transform: translateY(-50%);
 
                 width: 17px;
                 height: 17px;
@@ -318,6 +319,7 @@ img{
                     height: 100%;
                     border:none;
                     padding-left: 42px;
+                    padding-right: 20px;
                     font-size: 18px;
                     line-height: 24px;
 
@@ -347,34 +349,43 @@ img{
             position: relative;
             display: flex;
             align-items: center;
-            justify-content: center;
+            
             text-decoration: none;
             font-size: 18px;
             line-height: 18px;
             color: var(--white);
+            word-wrap: wrap;
+            word-break: break-all;
+            hyphens: auto;
         }
 
         .bookmarks{
         
-            padding-left: 20px;
+            padding-left: 45px;
+            max-width: 150px;
+            
+
 
         }
 
         .basket{
-            padding-left: 24px;
+            padding-left: 49px;
+            padding-right: 10px;
         }
 
-        .basket{
-            flex-wrap: wrap;
+        .checkout{
+            justify-content: center;
+            padding-left: 10px;
+            padding-right: 10px;
         }
-
 
             .icon-bookmark:before{
 
                 content:"";
                 position: absolute;
                 left: 20px;
-                top:13px;
+                top:50%;
+                transform: translateY(-50%);
 
                 background-image: url("../../img/icon-bookmark.svg");
                 background-repeat: no-repeat;
@@ -389,7 +400,8 @@ img{
                 content:"";
                 position: absolute;
                 left: 26px;
-                top:12px;
+                top:50%;
+                transform: translateY(-50%);
                 
                 background-image: url("../../img/icon-cart.svg");
                 background-repeat: no-repeat;
