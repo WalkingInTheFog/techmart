@@ -1054,6 +1054,7 @@ img{
     border: 1px solid var(--light-gray);
     background-color: var(--white);
     overflow: hidden;
+    
 }
 
         .product-cart:hover,
