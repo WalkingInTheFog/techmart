@@ -88,7 +88,9 @@
 
       <address class="contacts">
 
-        <a class="contacts__phone icon-phone" href="tel:78005558628">+7 800 555-86-28</a>
+        <a class="contacts__phone icon-phone" href="tel:78005558628"
+          aria-label="Контакный номер интернет магазина Техномарт">
+          +7 800 555-86-28</a>
 
         <p>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
 
@@ -120,7 +122,7 @@
 
           <p class="user-panel-user__btn">
 
-            <a href="blank.html" class="user-panel-user__profile-link">
+            <a href="blank.html" class="user-panel-user__profile-link" aria-label="Перейти в личный кабинет">
 
               <svg class="user-panel-user__icon-user" width="20" height="18" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -132,7 +134,7 @@
 
             </a>
 
-            <a href="blank.html" class="user-panel-user__logout">
+            <a href="blank.html" class="user-panel-user__logout" aria-label="Выйти из личного кабинета">
 
               <svg class="user-panel-user__icon-logout" width="20" height="17" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -229,8 +231,11 @@
 
                   <div class="price-filter__scale" style=" width: 70%;"></div>
 
-                  <div class="price-filter-toggle price-filter-toggle__min" tabindex="0" style="left: 0"></div>
-                  <div class="price-filter-toggle price-filter-toggle__max" tabindex="0" style="left: 70%;"></div>
+                  <div class="price-filter-toggle price-filter-toggle__min" tabindex="0" style="left: 0"
+                    aria-label="установить минимальную цену"></div>
+
+                  <div class="price-filter-toggle price-filter-toggle__max" tabindex="0" style="left: 70%;"
+                    aria-label="установить максимальную  цену"></div>
 
                 </div>
 
@@ -402,7 +407,7 @@
               <li class="sorting-settings-list__item">
 
                 <a href="blank.html" class="sorting-settings-list__link sorting-settings-list__link--icon "
-                  aria-label="сортировкаот большего к меньшему">
+                  aria-label="сортировка от большего к меньшему">
 
                   <svg class="icon-down-dir" width="12" height="10" viewBox="0 0 12 10" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -427,7 +432,7 @@
 
                 <div class="product-cart__img-wrapper">
 
-                  <img class="product-cart__img" src="img/bfg-6000.png" alt="Перфоратор BOSCH <br> BFG 6000" width="144"
+                  <img class="product-cart__img" src="img/bfg-6000.png" alt="Перфоратор BOSCH BFG 6000" width="144"
                     height="128">
 
                 </div>
@@ -719,20 +724,23 @@
           <ul class="catalog-pagination-list reset-list">
 
             <li class="catalog-pagination-list__item">
-              <a class="catalog-pagination-list__link catalog-pagination-list__link--active">1</a>
+              <a class="catalog-pagination-list__link catalog-pagination-list__link--active"
+                aria-label="Перейти на 1 страницу каталога">1</a>
             </li>
 
             <li class="catalog-pagination-list__item">
-              <a href="blank.html" class="catalog-pagination-list__link">2</a>
+              <a href="blank.html" class="catalog-pagination-list__link"
+                aria-label="Перейти на 2 страницу каталога">2</a>
             </li>
 
             <li class="catalog-pagination-list__item">
-              <a href="blank.html" class="catalog-pagination-list__link">3</a>
+              <a href="blank.html" class="catalog-pagination-list__link"
+                aria-label="Перейти на 3 страницу каталога">3</a>
             </li>
 
             <li class="catalog-pagination-list__item">
-              <a href="blank.html"
-                class="catalog-pagination-list__link catalog-pagination-list__link--next-page">Следующая</a>
+              <a href="blank.html" class="catalog-pagination-list__link catalog-pagination-list__link--next-page"
+                aria-label="Перейти на следущую страницу каталога">Следующая</a>
             </li>
 
           </ul>
@@ -766,7 +774,7 @@
 
       <div class="footer-top__logo-contact-wrapper">
 
-        <a class="main-logo main-logo--footer" href="index.html" aria-label="логотип Техномарт">
+        <a class="main-logo main-logo--footer" href="index.html" aria-label="логотип интернет магазина 'Техномарт'">
 
           <img src="img/footer-logo-technomart.svg" alt="Техномарт" class="main-logo__img" width="138" height="23">
 
