@@ -2061,6 +2061,7 @@ img{
     
     .catalog-filters-list--power{
         margin-top: 13px;
+       
     }
 
     .catalog-filters-list--power li:not(:last-child){
@@ -2076,12 +2077,7 @@ img{
             height: 25px;
             border: 4px solid var(--gray-active);
             border-radius: 50%;
-        }
-
-        .catalog-filters-list__input+.power-label::before{
-            background-color: var(--white);
-            background-clip: content-box;
-            padding: 4px;
+            
         }
 
 
@@ -2094,9 +2090,24 @@ img{
         
 
 
-    .catalog-filters-list__input:disabled+.catalog-filters-list__label{
-        opacity: 0.4;
-    }
+            .catalog-filters-list__input:disabled+.catalog-filters-list__label{
+                opacity: 0.4;
+            }
+
+            .catalog-filters-list__input:disabled+.catalog-filters-list__label::before{
+                opacity: 0.9;
+            }
+
+            .catalog-filters-list__label:hover::before,
+            .catalog-filters-list__label:focus::before{
+                border-color:var(--gray-input);
+            }
+
+
+
+
+
+
 
     .catalog-filters-form__btn{
         display: block;
