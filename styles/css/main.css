@@ -1124,7 +1124,7 @@ img{
     
         .product-cart__links-buy, 
         .product-cart__links-bookmark{
-
+            position: relative;
             display: block;
             margin: auto;
             width: 135px;
@@ -1148,14 +1148,7 @@ img{
             border-radius: 2px;
         }
 
-        .product-cart__links-buy::before{
-            content:'';
-            position: absolute;
-            display: block;
-            left: 30px;
-            top:10px;
-        }
-
+       
         
             .product-cart__links-buy:hover,
             .product-cart__links-buy:focus{
@@ -2034,6 +2027,12 @@ img{
             background-image: url('../../img/checkbox-on.svg'); 
             width:27px;
         }
+
+/* 
+        .catalog-filters-list__label:hover,
+        .catalog-filters-list__label:focus{} */
+
+
 
     .catalog-filters__power-title{
         padding-top: 1px;
