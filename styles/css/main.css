@@ -2023,15 +2023,36 @@ img{
             background-repeat: no-repeat;
         }
 
+
+            .manufacturer-label:hover:before,
+            .manufacturer-label:focus:before{
+                
+                background-image: url('../../img/checkbox-off-hover.svg'); 
+                
+            }
+
+
         .catalog-filters-list__input:checked+.manufacturer-label:before{
             background-image: url('../../img/checkbox-on.svg'); 
             width:27px;
         }
 
-/* 
-        .catalog-filters-list__label:hover,
-        .catalog-filters-list__label:focus{} */
+            .catalog-filters-list__input:checked+.manufacturer-label:hover:before,
+            .catalog-filters-list__input:checked+.manufacturer-label:focus:before{
+                background-image: url('../../img/checkbox-on-hover.svg'); 
+               
+            }
 
+            /* состояние отключенного чек бокса*/
+
+            .catalog-filters-list__input:disabled+.manufacturer-label:before{
+               
+                opacity: 0.9;
+            }
+
+            .catalog-filters-list__input:disabled+.manufacturer-label{
+                opacity: 0.4;
+            }
 
 
     .catalog-filters__power-title{
