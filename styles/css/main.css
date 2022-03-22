@@ -203,6 +203,7 @@ img{
         justify-content: center;
         /* align-items: center; */
         padding-top: 8px;
+        
         text-transform: uppercase;
         font-family: Cuprum,sans-serif;
         font-size: 14px;
@@ -249,8 +250,7 @@ img{
             position: relative;
             display: flex;
             
-            padding-top: 12px;
-            padding-bottom: 12px;
+            padding:12px;
             min-height: 42px;
             background-color: var(--red);
 
@@ -363,10 +363,9 @@ img{
         .bookmarks{
         
             padding-left: 45px;
+            padding-right: 10px;
             max-width: 150px;
             
-
-
         }
 
         .basket{
@@ -1075,6 +1074,8 @@ img{
     .product-cart__title {
         margin: 0;
         margin-bottom: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
         font-family: 'PT Sans', sans-serif;
         font-weight: bold;
         font-size: 18px;
@@ -1128,7 +1129,7 @@ img{
             display: block;
             margin: auto;
             width: 135px;
-            height: 38px;
+            
               
             font-size: 14px;
             line-height: 18px;
@@ -1162,9 +1163,10 @@ img{
     
         .product-cart__links-bookmark {
             padding-top: 8px;
-            padding-bottom: 12px;
+            padding-bottom: 8px;
             border: 3px solid var(--green);
-           
+            padding-left: 10px;
+            padding-right: 10px;
             border-radius: 2px;
             color: var(--blue);
 
@@ -1192,6 +1194,8 @@ img{
 
     .product-cart__old-price{
         margin-bottom: 13px;
+        padding-right: 10px;
+        padding-left: 10px;
         color: var(--gray);
     }
 
@@ -2177,22 +2181,27 @@ img{
     align-items: center;
  }
 
+    .sorting-settings-list li{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
 
         .sorting-settings-list__item--sort-price{
-            margin-right: 70px;
+            margin-right: 60px;
         }
 
         .sorting-settings-list__item--sort-type{
-            margin-right: 65px;
+            margin-right: 55px;
         }
 
         .sorting-settings-list__item--soft-function{
-            margin-right: 48px;
+            margin-right: 38px;
         }
 
         .sorting-settings-list__item--to-less{
 
-            margin-right: 20px;
+            margin-right: 10px;
         }
 
            
