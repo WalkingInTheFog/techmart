@@ -478,11 +478,6 @@ img{
             
     }  
 
-    .contacts{
-        
-        margin-left: 7px;
-    }
-
         .contacts__phone{
             display: flex;
             align-items: center;
