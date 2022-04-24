@@ -80,6 +80,8 @@ const modal_handler_buy_modal = function (links, modal, close_btn) {
 
 /**********************************MY CODE**************************************************/
 
+
+/************************************MODAL WINDOW***************************************/
 let feed_back_btn = document.querySelector('.about-us__map-btn');
 let feed_back_modal = document.querySelector('.feedback-pop-up');
 
@@ -116,4 +118,41 @@ if (basket_success_modal) {
         basket_success_modal.classList.add('display-none');
 
     });
+}
+
+/************************************Valid form***************************************/
+
+let feed_back_form = document.querySelector('.feedback-form');
+
+
+if (feed_back_form) {
+
+    let name = feed_back_form.querySelector('#feedback-form__name');
+    let mail = feed_back_form.querySelector('#feedback-form__mail');
+    let msg = feed_back_form.querySelector('#feedback-form__msg');
+
+    feed_back_form.addEventListener('submit', function (evt) {
+
+
+
+        if (!name.value || !mail.value || !msg.value) {
+
+            evt.preventDefault();
+
+            if (!name.value) {
+                name.style.borderColor = 'red';
+            }
+
+            if (!mail.value) {
+                mail.style.borderColor = 'red';
+            }
+
+            if (!msg.value) {
+                msg.style.borderColor = 'red';
+            }
+
+        }
+
+    });
+
 }
