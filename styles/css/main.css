@@ -339,7 +339,7 @@ img {
     color: var(--black);
 }
 
-.header-search-form__field:focus+.header-search-form__icon {
+.header-search-form__field:focus + .header-search-form__icon {
     fill: var(--red);
     opacity: 1;
 }
@@ -1239,7 +1239,7 @@ img {
 
 
 
-.product-cart__links+.product-cart__price {
+.product-cart__links + .product-cart__price {
     margin-top: 31px;
 }
 
@@ -1746,7 +1746,7 @@ img {
     line-height: 18px;
 }
 
-.main-footer__links p+p {
+.main-footer__links p + p {
     margin-left: 50px;
 }
 
@@ -2044,25 +2044,25 @@ fieldset.catalog-filters__power-fieldset {
 }
 
 
-.catalog-filters-list__input:checked+.manufacturer-label:before {
+.catalog-filters-list__input:checked + .manufacturer-label:before {
     background-image: url('../../img/checkbox-on.svg');
     width: 27px;
 }
 
-.catalog-filters-list__input:checked+.manufacturer-label:hover:before,
-.catalog-filters-list__input:checked+.manufacturer-label:focus:before {
+.catalog-filters-list__input:checked + .manufacturer-label:hover:before,
+.catalog-filters-list__input:checked + .manufacturer-label:focus:before {
     background-image: url('../../img/checkbox-on-hover.svg');
 
 }
 
 /* состояние отключенного чек бокса*/
 
-.catalog-filters-list__input:disabled+.manufacturer-label:before {
+.catalog-filters-list__input:disabled + .manufacturer-label:before {
 
     opacity: 0.9;
 }
 
-.catalog-filters-list__input:disabled+.manufacturer-label {
+.catalog-filters-list__input:disabled + .manufacturer-label {
     opacity: 0.4;
 }
 
@@ -2093,7 +2093,7 @@ fieldset.catalog-filters__power-fieldset {
 }
 
 
-.catalog-filters-list__input:checked+.power-label::before {
+.catalog-filters-list__input:checked + .power-label::before {
     background-color: var(--gray-active);
     background-clip: content-box;
     padding: 4px;
@@ -2102,11 +2102,11 @@ fieldset.catalog-filters__power-fieldset {
 
 
 
-.catalog-filters-list__input:disabled+.catalog-filters-list__label {
+.catalog-filters-list__input:disabled + .catalog-filters-list__label {
     opacity: 0.4;
 }
 
-.catalog-filters-list__input:disabled+.catalog-filters-list__label::before {
+.catalog-filters-list__input:disabled + .catalog-filters-list__label::before {
     opacity: 0.9;
 }
 
@@ -2653,4 +2653,62 @@ fieldset.catalog-filters__power-fieldset {
 
 .sucсess-pop-up__btn--white:active {
     color: var(--gray-active);
+}
+
+/********************ANIMATION**********************/
+@keyframes fadeInDownBig {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-50%, -2000px, 0);
+        transform: translate3d(-50%, -2000px, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+
+
+.animate__fadeInDownBig {
+    -webkit-animation-name: fadeInDownBig;
+    animation-name: fadeInDownBig;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+
+}
+
+
+@keyframes shakeX {
+
+    from,
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0);
+    }
+}
+
+.animate__shakeX {
+    -webkit-animation-name: shakeX;
+    animation-name: shakeX;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
 }
