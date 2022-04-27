@@ -1,3 +1,5 @@
+/*********************************FUNCTION**************************************************/
+
 const modal_handler = function (link, modal, close_btn) {
 
     link.addEventListener('click', function (evt) {
@@ -8,6 +10,8 @@ const modal_handler = function (link, modal, close_btn) {
             modal.classList.remove('display-none');
         }
 
+        modal.classList.add('animate__fadeInDownBig');
+
     });
 
     close_btn.addEventListener('click', function (evt) {
@@ -15,6 +19,8 @@ const modal_handler = function (link, modal, close_btn) {
         evt.preventDefault();
 
         modal.classList.add('display-none');
+        modal.classList.remove('animate__fadeInDownBig');
+
 
     });
 
@@ -24,7 +30,10 @@ const modal_handler = function (link, modal, close_btn) {
 
             if (!modal.classList.contains('display-none')) {
                 modal.classList.add('display-none');
+                modal.classList.remove('animate__fadeInDownBig');
             }
+
+
 
         }
 
@@ -81,11 +90,12 @@ const modal_handler_buy_modal = function (links, modal, close_btn) {
 /**********************************MY CODE**************************************************/
 
 
-/************************************MODAL WINDOW***************************************/
+/************************************MODAL WINDOW**************************/
 let feed_back_btn = document.querySelector('.about-us__map-btn');
 let feed_back_modal = document.querySelector('.feedback-pop-up');
 
 if (feed_back_modal) {
+
     let feed_back_modal_close = feed_back_modal.querySelector('.feedback-pop-up__close');
 
     modal_handler(feed_back_btn, feed_back_modal, feed_back_modal_close);
@@ -122,10 +132,10 @@ if (basket_success_modal) {
 
 /************************************Valid form***************************************/
 
-let feed_back_form = document.querySelector('.feedback-form');
 
+if (feed_back_modal) {
 
-if (feed_back_form) {
+    let feed_back_form = feed_back_modal.querySelector('.feedback-form');
 
     let name = feed_back_form.querySelector('#feedback-form__name');
     let mail = feed_back_form.querySelector('#feedback-form__mail');
@@ -133,9 +143,10 @@ if (feed_back_form) {
 
     feed_back_form.addEventListener('submit', function (evt) {
 
-
+        feed_back_modal.classList.remove('animate__shakeX');
 
         if (!name.value || !mail.value || !msg.value) {
+
 
             evt.preventDefault();
 
@@ -151,8 +162,12 @@ if (feed_back_form) {
                 msg.style.borderColor = 'red';
             }
 
+
+
         }
 
     });
+
+
 
 }
