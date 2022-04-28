@@ -1947,6 +1947,12 @@ img {
     align-items: center;
 }
 
+.catalog-filters-form {
+
+    margin-bottom: 30px;
+}
+
+
 .catalog-filters-form legend {
     margin-bottom: 12px;
 
