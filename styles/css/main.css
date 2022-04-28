@@ -1285,7 +1285,8 @@ img {
 
 .services {
     padding-top: 63px;
-    /* margin-bottom: 70px; */
+    min-height: 524px;
+
     background-color: var(--light-blue);
 }
 
