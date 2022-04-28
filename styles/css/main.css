@@ -1353,13 +1353,7 @@ img {
     box-shadow: 0px 1px 0px var(--darker-blue), inset 0px 1px 0px var(--services-shadow-light);
 }
 
-.services-list__link--active {
-    color: var(--blue);
-    background-color: var(--white);
 
-    box-shadow: 0px 1px 0px var(--white);
-
-}
 
 .services-list__link:hover,
 .services-list__link:focus {
@@ -1374,7 +1368,13 @@ img {
 }
 
 
+.services-list__link.services-list__link--active {
+    color: var(--blue);
+    background-color: var(--white);
 
+    box-shadow: 0px 1px 0px var(--white);
+
+}
 
 .services-desc-list {}
 
