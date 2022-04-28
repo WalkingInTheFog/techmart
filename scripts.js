@@ -168,6 +168,70 @@ if (feed_back_modal) {
 
     });
 
+}
 
+/**************************************  SLIDER *************************/
+
+/*let slider = document.querySelector('.promo-slider');
+
+if (slider) {
+
+    let slider_list = slider.querySelector('.promo-slider-list');
+
+}
+
+
+ *promo-slider-list--second-slide 
+ *promo-slider-list--first-slide 
+ * 
+ */
+
+/**************************************  tabs *************************/
+
+let services = document.querySelector('.services');
+
+
+
+if (services) {
+
+    let services_links = services.querySelectorAll('.services-list__link');
+    let services_contents = services.querySelectorAll('.services-desc-list__item');
+
+    // перебираем все ссылки перелючения табов и добавляем слушателя события клик
+
+    for (let i = 0; i < services_links.length; i++) {
+
+        services_links[i].addEventListener('click', function (evt) {
+
+            evt.preventDefault();
+
+            // перебираем все ссылки перелючения табов и убираем у них класс активности, это будет при каждом клике по ссылке на таб 
+
+            for (let y = 0; y < services_links.length; y++) {
+
+                services_links[y].classList.remove('services-list__link--active');
+            }
+
+            // перебираем все табы и убираем у них класс активности, это будет при каждом клике по ссылке на таб
+
+            for (let q = 0; q < services_contents.length; q++) {
+
+                services_contents[q].classList.add('display-none');
+
+                // если у текущего таба класс совпадает с тем, что указан в data атрибуте на который был клик то его мы показываем 
+
+                if (services_contents[q].classList.contains(evt.target.dataset.destination)) {
+                    services_contents[q].classList.remove('display-none');
+                }
+            }
+
+            // ссылке на который был клик, даем активный класс
+
+            evt.target.classList.add('services-list__link--active');
+
+
+        });
+
+    }
 
 }
