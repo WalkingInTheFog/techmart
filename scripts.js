@@ -172,25 +172,58 @@ if (feed_back_modal) {
 
 /**************************************  SLIDER *************************/
 
-/*let slider = document.querySelector('.promo-slider');
+let slider = document.querySelector('.promo-slider');
 
 if (slider) {
 
-    let slider_list = slider.querySelector('.promo-slider-list');
+    let track = slider.querySelector('.promo-slider-list');
+    let btn_left = slider.querySelector('.promo-slider__controls-button--left');
+    let btn_right = slider.querySelector('.promo-slider__controls-button--right');
+    let position = 0;
+    let move_position = 0;
+    let item_width = 620;
+    let item_count = 2;
+    let max_move_track = (item_width * item_count) - item_width;
 
+
+
+    btn_right.addEventListener('click', function (evt) {
+
+        move_position += item_width;
+
+        if (move_position > max_move_track) {
+
+            btn_right.disabled = true;
+            move_position = max_move_track;
+
+        } else {
+            track.style.transform = 'translateX(-' + move_position + 'px)';
+            btn_left.disabled = false;
+        }
+
+    });
+
+
+    btn_left.addEventListener('click', function (evt) {
+
+        move_position -= item_width;
+
+        if (move_position < 0) {
+
+            btn_left.disabled = true;
+            move_position = 0;
+
+        } else {
+            track.style.transform = 'translateX(-' + move_position + 'px)';
+            btn_right.disabled = false;
+        }
+
+    });
 }
-
-
- *promo-slider-list--second-slide 
- *promo-slider-list--first-slide 
- * 
- */
 
 /**************************************  tabs *************************/
 
 let services = document.querySelector('.services');
-
-
 
 if (services) {
 
