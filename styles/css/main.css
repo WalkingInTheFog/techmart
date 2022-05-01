@@ -289,7 +289,7 @@ img {
 
 
 
-.header-search-form {}
+
 
 .header-search-form__label {
     display: block;
@@ -1336,7 +1336,7 @@ img {
 
 }
 
-.services-list__item {}
+
 
 .services-list__link {
     display: block;
@@ -1377,7 +1377,7 @@ img {
 
 }
 
-.services-desc-list {}
+
 
 .services-desc-list__item {
     position: relative;
@@ -1470,7 +1470,7 @@ img {
     column-gap: 180px;
 }
 
-.about-us__desc-col {}
+
 
 .about-us__title {
 
@@ -1526,10 +1526,6 @@ img {
 
 }
 
-
-.red-btn {}
-
-.about-us__map-col {}
 
 .about-us__map-col p {
     margin: 0;
