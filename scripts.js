@@ -185,8 +185,6 @@ if (slider) {
     let item_count = 2;
     let max_move_track = (item_width * item_count) - item_width;
 
-
-
     btn_right.addEventListener('click', function (evt) {
 
         move_position += item_width;
@@ -197,6 +195,7 @@ if (slider) {
             move_position = max_move_track;
 
         } else {
+
             track.style.transform = 'translateX(-' + move_position + 'px)';
             btn_left.disabled = false;
         }
